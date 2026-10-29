@@ -1,0 +1,11 @@
+# Raw and intermediate data (Web of Science licence: do not commit)
+*.pkl
+*.parquet
+data/raw/
+data/interim/
+# Notebook and system files
+.ipynb_checkpoints/
+~$*
+*.tmp
+.DS_Store
+__pycache__/

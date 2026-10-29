@@ -1,0 +1,271 @@
+country (number of OA publication),OA type,proportion
+Gambia (2051),bronze_%,12.62
+Liberia (505),bronze_%,12.14
+Equatorial Guinea (81),bronze_%,10.19
+Sierra Leone (1072),bronze_%,10.84
+South Sudan (184),bronze_%,5.91
+Malawi (5831),bronze_%,9.65
+Comoros (103),bronze_%,8.22
+Zambia (4449),bronze_%,9.78
+Mozambique (3164),bronze_%,8.82
+Uganda (12909),bronze_%,8.75
+Mali (2279),bronze_%,9.14
+Ethiopia (20104),bronze_%,4.28
+Guinea (790),bronze_%,10.73
+DR Congo (2801),bronze_%,8.62
+Guinea-Bissau (471),bronze_%,15.55
+Cabo Verde (272),bronze_%,9.67
+Congo Republic (1334),bronze_%,9.8
+Rwanda (2589),bronze_%,8.04
+Seychelles (455),bronze_%,13.85
+Tanzania (11220),bronze_%,7.52
+Somalia (199),bronze_%,4.4
+Kenya (20971),bronze_%,8.27
+Gabon (1527),bronze_%,12.24
+Niger (1290),bronze_%,8.41
+Burkina Faso (3824),bronze_%,8.49
+Angola (673),bronze_%,4.94
+Central African Republic (381),bronze_%,9.79
+Chad (335),bronze_%,6.42
+Sao Tome and Principe (47),bronze_%,7.41
+Burundi (374),bronze_%,6.09
+Madagascar (2283),bronze_%,9.3
+Benin (2971),bronze_%,6.8
+Senegal (4517),bronze_%,9.03
+Cote d'Ivoire (2889),bronze_%,7.87
+Ghana (12900),bronze_%,5.86
+Eswatini (596),bronze_%,6.48
+Zimbabwe (4644),bronze_%,6.63
+Namibia (1855),bronze_%,11.4
+Djibouti (112),bronze_%,8.02
+Mauritania (330),bronze_%,7.29
+Lesotho (332),bronze_%,7.4
+Sudan (4109),bronze_%,6.53
+South Africa (119542),bronze_%,7.59
+Togo (843),bronze_%,6.14
+Cameroon (7940),bronze_%,6.28
+Nigeria (31009),bronze_%,5.58
+Eritrea (250),bronze_%,5.62
+Botswana (2826),bronze_%,6.81
+Libya (1937),bronze_%,6.51
+Morocco (18324),bronze_%,5.68
+Mauritius (1086),bronze_%,5.08
+Egypt (70028),bronze_%,6.11
+Algeria (16701),bronze_%,5.1
+Tunisia (20371),bronze_%,5.84
+Gambia (2051),gold_%,39.43
+Liberia (505),gold_%,43.25
+Equatorial Guinea (81),gold_%,54.63
+Sierra Leone (1072),gold_%,43.9
+South Sudan (184),gold_%,52.76
+Malawi (5831),gold_%,35.89
+Comoros (103),gold_%,47.26
+Zambia (4449),gold_%,35.8
+Mozambique (3164),gold_%,39.11
+Uganda (12909),gold_%,37.74
+Mali (2279),gold_%,33.41
+Ethiopia (20104),gold_%,50.12
+Guinea (790),gold_%,37.46
+DR Congo (2801),gold_%,37.84
+Guinea-Bissau (471),gold_%,30.83
+Cabo Verde (272),gold_%,35.14
+Congo Republic (1334),gold_%,36.02
+Rwanda (2589),gold_%,37.08
+Seychelles (455),gold_%,22.16
+Tanzania (11220),gold_%,36.83
+Somalia (199),gold_%,46.86
+Kenya (20971),gold_%,31.65
+Gabon (1527),gold_%,31.67
+Niger (1290),gold_%,30.72
+Burkina Faso (3824),gold_%,35.68
+Angola (673),gold_%,36.93
+Central African Republic (381),gold_%,35.7
+Chad (335),gold_%,33.51
+Sao Tome and Principe (47),gold_%,38.27
+Burundi (374),gold_%,33.64
+Madagascar (2283),gold_%,28.47
+Benin (2971),gold_%,30.43
+Senegal (4517),gold_%,29.21
+Cote d'Ivoire (2889),gold_%,29.06
+Ghana (12900),gold_%,34.55
+Eswatini (596),gold_%,30.57
+Zimbabwe (4644),gold_%,29
+Namibia (1855),gold_%,23.68
+Djibouti (112),gold_%,30.19
+Mauritania (330),gold_%,31.85
+Lesotho (332),gold_%,33.7
+Sudan (4109),gold_%,34.92
+South Africa (119542),gold_%,23.31
+Togo (843),gold_%,28.55
+Cameroon (7940),gold_%,28.43
+Nigeria (31009),gold_%,31.06
+Eritrea (250),gold_%,29.59
+Botswana (2826),gold_%,23.84
+Libya (1937),gold_%,24.78
+Morocco (18324),gold_%,22.3
+Mauritius (1086),gold_%,18.81
+Egypt (70028),gold_%,22.21
+Algeria (16701),gold_%,16.53
+Tunisia (20371),gold_%,14.14
+Gambia (2051),green_%,14.15
+Liberia (505),green_%,11.99
+Equatorial Guinea (81),green_%,8.33
+Sierra Leone (1072),green_%,8.85
+South Sudan (184),green_%,7.09
+Malawi (5831),green_%,15.71
+Comoros (103),green_%,8.9
+Zambia (4449),green_%,15.77
+Mozambique (3164),green_%,11.47
+Uganda (12909),green_%,13.26
+Mali (2279),green_%,15.51
+Ethiopia (20104),green_%,5.79
+Guinea (790),green_%,10.64
+DR Congo (2801),green_%,12.41
+Guinea-Bissau (471),green_%,10.23
+Cabo Verde (272),green_%,14.62
+Congo Republic (1334),green_%,9.03
+Rwanda (2589),green_%,9.91
+Seychelles (455),green_%,18.56
+Tanzania (11220),green_%,10.76
+Somalia (199),green_%,6.29
+Kenya (20971),green_%,13.07
+Gabon (1527),green_%,12.64
+Niger (1290),green_%,15.29
+Burkina Faso (3824),green_%,9.78
+Angola (673),green_%,12.49
+Central African Republic (381),green_%,11.53
+Chad (335),green_%,11.23
+Sao Tome and Principe (47),green_%,9.88
+Burundi (374),green_%,9.59
+Madagascar (2283),green_%,12.65
+Benin (2971),green_%,11.3
+Senegal (4517),green_%,11.82
+Cote d'Ivoire (2889),green_%,11.27
+Ghana (12900),green_%,8.36
+Eswatini (596),green_%,11.31
+Zimbabwe (4644),green_%,10.88
+Namibia (1855),green_%,12.45
+Djibouti (112),green_%,12.26
+Mauritania (330),green_%,9.35
+Lesotho (332),green_%,7.72
+Sudan (4109),green_%,6.82
+South Africa (119542),green_%,12.79
+Togo (843),green_%,9.38
+Cameroon (7940),green_%,9.23
+Nigeria (31009),green_%,6.98
+Eritrea (250),green_%,8.05
+Botswana (2826),green_%,11.32
+Libya (1937),green_%,9.46
+Morocco (18324),green_%,6.93
+Mauritius (1086),green_%,7.45
+Egypt (70028),green_%,5.08
+Algeria (16701),green_%,7.49
+Tunisia (20371),green_%,6.67
+Gambia (2051),hybrid_%,12.24
+Liberia (505),hybrid_%,9.26
+Equatorial Guinea (81),hybrid_%,1.85
+Sierra Leone (1072),hybrid_%,9.95
+South Sudan (184),hybrid_%,6.69
+Malawi (5831),hybrid_%,9.64
+Comoros (103),hybrid_%,6.16
+Zambia (4449),hybrid_%,7.96
+Mozambique (3164),hybrid_%,8.7
+Uganda (12909),hybrid_%,7.71
+Mali (2279),hybrid_%,9.38
+Ethiopia (20104),hybrid_%,5.12
+Guinea (790),hybrid_%,6.35
+DR Congo (2801),hybrid_%,5.87
+Guinea-Bissau (471),hybrid_%,7.64
+Cabo Verde (272),hybrid_%,4.72
+Congo Republic (1334),hybrid_%,9.22
+Rwanda (2589),hybrid_%,8.01
+Seychelles (455),hybrid_%,8.45
+Tanzania (11220),hybrid_%,7.75
+Somalia (199),hybrid_%,5.03
+Kenya (20971),hybrid_%,9.2
+Gabon (1527),hybrid_%,5.53
+Niger (1290),hybrid_%,7.6
+Burkina Faso (3824),hybrid_%,6.87
+Angola (673),hybrid_%,6.11
+Central African Republic (381),hybrid_%,3.16
+Chad (335),hybrid_%,8.56
+Sao Tome and Principe (47),hybrid_%,2.47
+Burundi (374),hybrid_%,7.61
+Madagascar (2283),hybrid_%,5.9
+Benin (2971),hybrid_%,6.69
+Senegal (4517),hybrid_%,4.93
+Cote d'Ivoire (2889),hybrid_%,6.34
+Ghana (12900),hybrid_%,5.67
+Eswatini (596),hybrid_%,6.02
+Zimbabwe (4644),hybrid_%,7.21
+Namibia (1855),hybrid_%,6.16
+Djibouti (112),hybrid_%,2.36
+Mauritania (330),hybrid_%,3.8
+Lesotho (332),hybrid_%,3.46
+Sudan (4109),hybrid_%,4.01
+South Africa (119542),hybrid_%,5.69
+Togo (843),hybrid_%,4.75
+Cameroon (7940),hybrid_%,3.58
+Nigeria (31009),hybrid_%,3.8
+Eritrea (250),hybrid_%,3.56
+Botswana (2826),hybrid_%,4.18
+Libya (1937),hybrid_%,3.95
+Morocco (18324),hybrid_%,2.5
+Mauritius (1086),hybrid_%,4.94
+Egypt (70028),hybrid_%,2.61
+Algeria (16701),hybrid_%,1.71
+Tunisia (20371),hybrid_%,1.88
+Gambia (2051),all_OA_%,78.43
+Liberia (505),all_OA_%,76.63
+Equatorial Guinea (81),all_OA_%,75
+Sierra Leone (1072),all_OA_%,73.53
+South Sudan (184),all_OA_%,72.44
+Malawi (5831),all_OA_%,70.89
+Comoros (103),all_OA_%,70.55
+Zambia (4449),all_OA_%,69.31
+Mozambique (3164),all_OA_%,68.1
+Uganda (12909),all_OA_%,67.47
+Mali (2279),all_OA_%,67.45
+Ethiopia (20104),all_OA_%,65.3
+Guinea (790),all_OA_%,65.18
+DR Congo (2801),all_OA_%,64.75
+Guinea-Bissau (471),all_OA_%,64.26
+Cabo Verde (272),all_OA_%,64.15
+Congo Republic (1334),all_OA_%,64.07
+Rwanda (2589),all_OA_%,63.04
+Seychelles (455),all_OA_%,63.02
+Tanzania (11220),all_OA_%,62.85
+Somalia (199),all_OA_%,62.58
+Kenya (20971),all_OA_%,62.19
+Gabon (1527),all_OA_%,62.07
+Niger (1290),all_OA_%,62.02
+Burkina Faso (3824),all_OA_%,60.82
+Angola (673),all_OA_%,60.47
+Central African Republic (381),all_OA_%,60.19
+Chad (335),all_OA_%,59.71
+Sao Tome and Principe (47),all_OA_%,58.02
+Burundi (374),all_OA_%,56.93
+Madagascar (2283),all_OA_%,56.31
+Benin (2971),all_OA_%,55.22
+Senegal (4517),all_OA_%,55
+Cote d'Ivoire (2889),all_OA_%,54.55
+Ghana (12900),all_OA_%,54.44
+Eswatini (596),all_OA_%,54.38
+Zimbabwe (4644),all_OA_%,53.72
+Namibia (1855),all_OA_%,53.69
+Djibouti (112),all_OA_%,52.83
+Mauritania (330),all_OA_%,52.3
+Lesotho (332),all_OA_%,52.28
+Sudan (4109),all_OA_%,52.28
+South Africa (119542),all_OA_%,49.38
+Togo (843),all_OA_%,48.81
+Cameroon (7940),all_OA_%,47.51
+Nigeria (31009),all_OA_%,47.43
+Eritrea (250),all_OA_%,46.82
+Botswana (2826),all_OA_%,46.15
+Libya (1937),all_OA_%,44.69
+Morocco (18324),all_OA_%,37.41
+Mauritius (1086),all_OA_%,36.28
+Egypt (70028),all_OA_%,36.01
+Algeria (16701),all_OA_%,30.83
+Tunisia (20371),all_OA_%,28.53

@@ -1,0 +1,17 @@
+name: oa-africa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - missingno
+  - requests
+  - openpyxl
+  - jupyterlab
+  - pip
+  - pip:
+      - dataprep

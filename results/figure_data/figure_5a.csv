@@ -1,0 +1,913 @@
+research area,OA types,proportion
+astronomy & astrophysics (8085),bronze_%,28.1
+health care sciences & services (8572),bronze_%,12.84
+infectious diseases (25716),bronze_%,12.52
+tropical medicine (12281),bronze_%,8.81
+general & internal medicine (16122),bronze_%,6.14
+microbiology (12492),bronze_%,22.48
+"public, environmental & occupational health (28344)",bronze_%,10.09
+science & technology - other topics (34712),bronze_%,3.9
+parasitology (9643),bronze_%,2.42
+medical ethics (453),bronze_%,3.3
+religion (3518),bronze_%,1.43
+life sciences & biomedicine - other topics (3834),bronze_%,14.91
+research & experimental medicine (4887),bronze_%,4.72
+immunology (12271),bronze_%,16.17
+substance abuse (744),bronze_%,6.05
+virology (4664),bronze_%,9.81
+biodiversity & conservation (3376),bronze_%,11.69
+emergency medicine (822),bronze_%,6.38
+genetics & heredity (4474),bronze_%,12.59
+medical informatics (663),bronze_%,6.45
+evolutionary biology (2541),bronze_%,15.69
+cardiovascular system & cardiology (4540),bronze_%,21
+nutrition & dietetics (3901),bronze_%,15.94
+crystallography (2987),bronze_%,12.21
+social issues (579),bronze_%,3.39
+anesthesiology (1268),bronze_%,12.92
+rheumatology (1673),bronze_%,30.45
+architecture (146),bronze_%,7.12
+biomedical social sciences (2073),bronze_%,5.42
+respiratory system (3400),bronze_%,13.97
+mathematical & computational biology (1091),bronze_%,6.17
+psychiatry (3264),bronze_%,7.13
+oncology (4866),bronze_%,11.37
+cell biology (2559),bronze_%,11.68
+audiology & speech-language pathology (314),bronze_%,3.34
+plant sciences (11131),bronze_%,7.18
+mycology (862),bronze_%,8.07
+"radiology, nuclear medicine & medical imaging (3159)",bronze_%,6.06
+veterinary sciences (5382),bronze_%,4.79
+mathematical methods in social sciences (198),bronze_%,3.72
+mathematics (14338),bronze_%,13.41
+obstetrics & gynecology (4280),bronze_%,8.19
+meteorology & atmospheric sciences (2756),bronze_%,5.26
+pediatrics (4777),bronze_%,9.85
+education & educational research (4886),bronze_%,3.83
+remote sensing (1552),bronze_%,1.55
+oceanography (1123),bronze_%,17.21
+integrative & complementary medicine (1726),bronze_%,7.09
+geriatrics & gerontology (369),bronze_%,7.66
+ophthalmology (1807),bronze_%,7.46
+orthopedics (1276),bronze_%,5.58
+social sciences - other topics (2979),bronze_%,3.37
+urology & nephrology (2325),bronze_%,8.15
+gastroenterology & hepatology (1554),bronze_%,10.93
+biotechnology & applied microbiology (5137),bronze_%,7.82
+mining & mineral processing (988),bronze_%,1.07
+environmental sciences & ecology (22711),bronze_%,5.95
+business & economics (8204),bronze_%,4.55
+reproductive biology (1069),bronze_%,17.08
+behavioral sciences (735),bronze_%,8.29
+otorhinolaryngology (882),bronze_%,9.42
+hematology (1560),bronze_%,14.13
+neurosciences & neurology (4669),bronze_%,8.6
+rehabilitation (722),bronze_%,6.52
+biochemistry & molecular biology (9363),bronze_%,6.52
+allergy (328),bronze_%,9.66
+imaging science & photographic technology (1244),bronze_%,1.92
+anatomy & morphology (537),bronze_%,6.35
+agriculture (11909),bronze_%,4.12
+telecommunications (3698),bronze_%,2.3
+urban studies (599),bronze_%,7.99
+nursing (807),bronze_%,6.35
+psychology (3546),bronze_%,3.8
+demography (357),bronze_%,8.8
+pharmacology & pharmacy (10743),bronze_%,5.4
+developmental biology (243),bronze_%,16.14
+zoology (3605),bronze_%,7.5
+physical geography (1058),bronze_%,3.86
+sport sciences (951),bronze_%,7.68
+arts & humanities - other topics (364),bronze_%,6.58
+endocrinology & metabolism (2421),bronze_%,7.35
+forestry (1265),bronze_%,6.07
+physiology (999),bronze_%,5.83
+geochemistry & geophysics (1610),bronze_%,11.04
+water resources (5024),bronze_%,5.16
+food science & technology (5446),bronze_%,4.26
+"dentistry, oral surgery & medicine (1165)",bronze_%,4.52
+family studies (453),bronze_%,6.97
+history & philosophy of science (140),bronze_%,9.15
+surgery (3714),bronze_%,9.69
+entomology (2105),bronze_%,4.39
+physics (17166),bronze_%,1.85
+fisheries (954),bronze_%,8.69
+pathology (978),bronze_%,10.95
+metallurgy & metallurgical engineering (2166),bronze_%,1.61
+computer science (9949),bronze_%,3.53
+geography (795),bronze_%,2.93
+transplantation (265),bronze_%,17.35
+instruments & instrumentation (1431),bronze_%,1.09
+transportation (423),bronze_%,2.62
+marine & freshwater biology (2412),bronze_%,9.18
+energy & fuels (5228),bronze_%,2.05
+linguistics (957),bronze_%,3.09
+literature (631),bronze_%,2.32
+development studies (1284),bronze_%,3.04
+criminology & penology (239),bronze_%,1.54
+public administration (956),bronze_%,3.37
+social work (346),bronze_%,4.9
+paleontology (507),bronze_%,5.12
+construction & building technology (1125),bronze_%,2.02
+medical laboratory technology (527),bronze_%,16.02
+chemistry (20112),bronze_%,4.37
+acoustics (346),bronze_%,5.42
+engineering (22341),bronze_%,2.58
+anthropology (824),bronze_%,6.95
+information science & library science (834),bronze_%,3.15
+geology (5215),bronze_%,3.18
+materials science (11788),bronze_%,1.92
+toxicology (1781),bronze_%,4.51
+biophysics (646),bronze_%,9.28
+archaeology (434),bronze_%,7.41
+legal medicine (207),bronze_%,1.07
+sociology (482),bronze_%,2.88
+automation & control systems (1369),bronze_%,2.37
+government & law (1064),bronze_%,3.28
+operations research & management science (763),bronze_%,3.16
+communication (371),bronze_%,2.47
+mechanics (2090),bronze_%,5.72
+international relations (306),bronze_%,3.56
+dermatology (746),bronze_%,4.5
+philosophy (296),bronze_%,3.28
+area studies (1005),bronze_%,3.96
+mineralogy (557),bronze_%,2.92
+robotics (232),bronze_%,0.77
+electrochemistry (995),bronze_%,8.04
+women's studies (216),bronze_%,5.37
+thermodynamics (1575),bronze_%,2.71
+art (75),bronze_%,6.73
+optics (1684),bronze_%,1.12
+ethnic studies (87),bronze_%,2.23
+history (272),bronze_%,3.81
+nuclear science & technology (759),bronze_%,6.28
+polymer science (1347),bronze_%,1.47
+classics (17),bronze_%,0.81
+dance (2),bronze_%,0
+music (50),bronze_%,6.92
+spectroscopy (366),bronze_%,0.98
+cultural studies (115),bronze_%,2.98
+microscopy (48),bronze_%,1.29
+asian studies (10),bronze_%,2.31
+theater (16),bronze_%,1.73
+"film, radio & television (20)",bronze_%,0.34
+astronomy & astrophysics (8085),gold_%,8.15
+health care sciences & services (8572),gold_%,50.84
+infectious diseases (25716),gold_%,46.7
+tropical medicine (12281),gold_%,50.38
+general & internal medicine (16122),gold_%,55.41
+microbiology (12492),gold_%,26.93
+"public, environmental & occupational health (28344)",gold_%,44.36
+science & technology - other topics (34712),gold_%,59.93
+parasitology (9643),gold_%,60.6
+medical ethics (453),gold_%,40.95
+religion (3518),gold_%,59.54
+life sciences & biomedicine - other topics (3834),gold_%,31.82
+research & experimental medicine (4887),gold_%,42.38
+immunology (12271),gold_%,19.63
+substance abuse (744),gold_%,27.45
+virology (4664),gold_%,21.95
+biodiversity & conservation (3376),gold_%,23.46
+emergency medicine (822),gold_%,41.55
+genetics & heredity (4474),gold_%,25.3
+medical informatics (663),gold_%,33.78
+evolutionary biology (2541),gold_%,15.89
+cardiovascular system & cardiology (4540),gold_%,17.95
+nutrition & dietetics (3901),gold_%,23.31
+crystallography (2987),gold_%,37.45
+social issues (579),gold_%,22.82
+anesthesiology (1268),gold_%,36.72
+rheumatology (1673),gold_%,17.64
+architecture (146),gold_%,36.65
+biomedical social sciences (2073),gold_%,5.02
+respiratory system (3400),gold_%,15.24
+mathematical & computational biology (1091),gold_%,24.17
+psychiatry (3264),gold_%,26.05
+oncology (4866),gold_%,24.58
+cell biology (2559),gold_%,21.08
+audiology & speech-language pathology (314),gold_%,22.15
+plant sciences (11131),gold_%,13.33
+mycology (862),gold_%,19.44
+"radiology, nuclear medicine & medical imaging (3159)",gold_%,25.62
+veterinary sciences (5382),gold_%,28.57
+mathematical methods in social sciences (198),gold_%,9.07
+mathematics (14338),gold_%,18.86
+obstetrics & gynecology (4280),gold_%,25.88
+meteorology & atmospheric sciences (2756),gold_%,23.25
+pediatrics (4777),gold_%,20.24
+education & educational research (4886),gold_%,28.55
+remote sensing (1552),gold_%,30.44
+oceanography (1123),gold_%,10.18
+integrative & complementary medicine (1726),gold_%,29.36
+geriatrics & gerontology (369),gold_%,16.94
+ophthalmology (1807),gold_%,24.86
+orthopedics (1276),gold_%,21.87
+social sciences - other topics (2979),gold_%,23.99
+urology & nephrology (2325),gold_%,27.71
+gastroenterology & hepatology (1554),gold_%,13.47
+biotechnology & applied microbiology (5137),gold_%,19.92
+mining & mineral processing (988),gold_%,30.97
+environmental sciences & ecology (22711),gold_%,19.34
+business & economics (8204),gold_%,16.29
+reproductive biology (1069),gold_%,12.34
+behavioral sciences (735),gold_%,5.17
+otorhinolaryngology (882),gold_%,20.58
+hematology (1560),gold_%,10.75
+neurosciences & neurology (4669),gold_%,15.27
+rehabilitation (722),gold_%,17.14
+biochemistry & molecular biology (9363),gold_%,19.77
+allergy (328),gold_%,12.72
+imaging science & photographic technology (1244),gold_%,25.22
+anatomy & morphology (537),gold_%,19.26
+agriculture (11909),gold_%,20.14
+telecommunications (3698),gold_%,26.28
+urban studies (599),gold_%,15.67
+nursing (807),gold_%,14.54
+psychology (3546),gold_%,9.7
+demography (357),gold_%,8.8
+pharmacology & pharmacy (10743),gold_%,18.35
+developmental biology (243),gold_%,8.07
+zoology (3605),gold_%,11.47
+physical geography (1058),gold_%,11.76
+sport sciences (951),gold_%,9.85
+arts & humanities - other topics (364),gold_%,22.02
+endocrinology & metabolism (2421),gold_%,14.9
+forestry (1265),gold_%,14.05
+physiology (999),gold_%,13.86
+geochemistry & geophysics (1610),gold_%,8.46
+water resources (5024),gold_%,19.71
+food science & technology (5446),gold_%,16.3
+"dentistry, oral surgery & medicine (1165)",gold_%,18.26
+family studies (453),gold_%,0.87
+history & philosophy of science (140),gold_%,5.63
+surgery (3714),gold_%,14.3
+entomology (2105),gold_%,13.29
+physics (17166),gold_%,13.72
+fisheries (954),gold_%,12.65
+pathology (978),gold_%,10.91
+metallurgy & metallurgical engineering (2166),gold_%,24.29
+computer science (9949),gold_%,15.24
+geography (795),gold_%,9.87
+transplantation (265),gold_%,1.56
+instruments & instrumentation (1431),gold_%,16.82
+transportation (423),gold_%,12.68
+marine & freshwater biology (2412),gold_%,7.57
+energy & fuels (5228),gold_%,19.85
+linguistics (957),gold_%,16.31
+literature (631),gold_%,23.03
+development studies (1284),gold_%,0.31
+criminology & penology (239),gold_%,11.88
+public administration (956),gold_%,6.16
+social work (346),gold_%,5.94
+paleontology (507),gold_%,11.27
+construction & building technology (1125),gold_%,18.36
+medical laboratory technology (527),gold_%,3.8
+chemistry (20112),gold_%,15.51
+acoustics (346),gold_%,8.48
+engineering (22341),gold_%,16.22
+anthropology (824),gold_%,1.11
+information science & library science (834),gold_%,9.34
+geology (5215),gold_%,11.95
+materials science (11788),gold_%,16.45
+toxicology (1781),gold_%,12.91
+biophysics (646),gold_%,1.39
+archaeology (434),gold_%,0.98
+legal medicine (207),gold_%,8.23
+sociology (482),gold_%,4.96
+automation & control systems (1369),gold_%,11.53
+government & law (1064),gold_%,7.85
+operations research & management science (763),gold_%,6.68
+communication (371),gold_%,8.23
+mechanics (2090),gold_%,7.62
+international relations (306),gold_%,3.62
+dermatology (746),gold_%,9.36
+philosophy (296),gold_%,5.54
+area studies (1005),gold_%,5.9
+mineralogy (557),gold_%,7.17
+robotics (232),gold_%,8.63
+electrochemistry (995),gold_%,4.08
+women's studies (216),gold_%,0.53
+thermodynamics (1575),gold_%,10.73
+art (75),gold_%,1.2
+optics (1684),gold_%,6.46
+ethnic studies (87),gold_%,2.97
+history (272),gold_%,2.69
+nuclear science & technology (759),gold_%,3.16
+polymer science (1347),gold_%,6.57
+classics (17),gold_%,9.68
+dance (2),gold_%,0
+music (50),gold_%,0.24
+spectroscopy (366),gold_%,6.65
+cultural studies (115),gold_%,0.75
+microscopy (48),gold_%,1.29
+asian studies (10),gold_%,0
+theater (16),gold_%,0
+"film, radio & television (20)",gold_%,2.06
+astronomy & astrophysics (8085),green_%,36.85
+health care sciences & services (8572),green_%,7.82
+infectious diseases (25716),green_%,12.59
+tropical medicine (12281),green_%,12.55
+general & internal medicine (16122),green_%,8.68
+microbiology (12492),green_%,14.71
+"public, environmental & occupational health (28344)",green_%,12.09
+science & technology - other topics (34712),green_%,4.5
+parasitology (9643),green_%,4.77
+medical ethics (453),green_%,12.93
+religion (3518),green_%,2.12
+life sciences & biomedicine - other topics (3834),green_%,11.14
+research & experimental medicine (4887),green_%,7.67
+immunology (12271),green_%,16.83
+substance abuse (744),green_%,21.81
+virology (4664),green_%,23.11
+biodiversity & conservation (3376),green_%,14.62
+emergency medicine (822),green_%,6.45
+genetics & heredity (4474),green_%,10.91
+medical informatics (663),green_%,11.23
+evolutionary biology (2541),green_%,18.1
+cardiovascular system & cardiology (4540),green_%,11.55
+nutrition & dietetics (3901),green_%,9.39
+crystallography (2987),green_%,3.12
+social issues (579),green_%,9.26
+anesthesiology (1268),green_%,2.72
+rheumatology (1673),green_%,2.61
+architecture (146),green_%,5.69
+biomedical social sciences (2073),green_%,28.53
+respiratory system (3400),green_%,16.95
+mathematical & computational biology (1091),green_%,11.56
+psychiatry (3264),green_%,11.52
+oncology (4866),green_%,7.34
+cell biology (2559),green_%,10.9
+audiology & speech-language pathology (314),green_%,19.58
+plant sciences (11131),green_%,6.18
+mycology (862),green_%,15.43
+"radiology, nuclear medicine & medical imaging (3159)",green_%,7.72
+veterinary sciences (5382),green_%,8.12
+mathematical methods in social sciences (198),green_%,29.53
+mathematics (14338),green_%,10.3
+obstetrics & gynecology (4280),green_%,7.21
+meteorology & atmospheric sciences (2756),green_%,9.63
+pediatrics (4777),green_%,9.59
+education & educational research (4886),green_%,7.85
+remote sensing (1552),green_%,6.63
+oceanography (1123),green_%,11.63
+integrative & complementary medicine (1726),green_%,4.8
+geriatrics & gerontology (369),green_%,10.67
+ophthalmology (1807),green_%,7.03
+orthopedics (1276),green_%,11.17
+social sciences - other topics (2979),green_%,9.86
+urology & nephrology (2325),green_%,4.65
+gastroenterology & hepatology (1554),green_%,7.5
+biotechnology & applied microbiology (5137),green_%,8.98
+mining & mineral processing (988),green_%,5.42
+environmental sciences & ecology (22711),green_%,10.42
+business & economics (8204),green_%,14.85
+reproductive biology (1069),green_%,7.89
+behavioral sciences (735),green_%,19.71
+otorhinolaryngology (882),green_%,7.63
+hematology (1560),green_%,10.02
+neurosciences & neurology (4669),green_%,10.71
+rehabilitation (722),green_%,11.86
+biochemistry & molecular biology (9363),green_%,7.62
+allergy (328),green_%,8.83
+imaging science & photographic technology (1244),green_%,8.4
+anatomy & morphology (537),green_%,9.77
+agriculture (11909),green_%,7.65
+telecommunications (3698),green_%,8.18
+urban studies (599),green_%,8.68
+nursing (807),green_%,11.5
+psychology (3546),green_%,17.86
+demography (357),green_%,11.46
+pharmacology & pharmacy (10743),green_%,9.63
+developmental biology (243),green_%,8.82
+zoology (3605),green_%,14.18
+physical geography (1058),green_%,15.02
+sport sciences (951),green_%,13.52
+arts & humanities - other topics (364),green_%,4.29
+endocrinology & metabolism (2421),green_%,7.86
+forestry (1265),green_%,9.64
+physiology (999),green_%,11.96
+geochemistry & geophysics (1610),green_%,10.39
+water resources (5024),green_%,5.1
+food science & technology (5446),green_%,9.24
+"dentistry, oral surgery & medicine (1165)",green_%,7.82
+family studies (453),green_%,17.13
+history & philosophy of science (140),green_%,11.03
+surgery (3714),green_%,5.92
+entomology (2105),green_%,9.51
+physics (17166),green_%,12.61
+fisheries (954),green_%,7.23
+pathology (978),green_%,7.32
+metallurgy & metallurgical engineering (2166),green_%,3.82
+computer science (9949),green_%,8.63
+geography (795),green_%,10.51
+transplantation (265),green_%,4.78
+instruments & instrumentation (1431),green_%,8.86
+transportation (423),green_%,11.85
+marine & freshwater biology (2412),green_%,9.65
+energy & fuels (5228),green_%,5.63
+linguistics (957),green_%,7.93
+literature (631),green_%,2.46
+development studies (1284),green_%,16.45
+criminology & penology (239),green_%,11.52
+public administration (956),green_%,12.73
+social work (346),green_%,12.76
+paleontology (507),green_%,8.44
+construction & building technology (1125),green_%,6
+medical laboratory technology (527),green_%,5.41
+chemistry (20112),green_%,5.56
+acoustics (346),green_%,7.78
+engineering (22341),green_%,6.44
+anthropology (824),green_%,13.01
+information science & library science (834),green_%,9.64
+geology (5215),green_%,7.77
+materials science (11788),green_%,5.39
+toxicology (1781),green_%,5.91
+biophysics (646),green_%,9.98
+archaeology (434),green_%,10.68
+legal medicine (207),green_%,12.77
+sociology (482),green_%,11.03
+automation & control systems (1369),green_%,8.25
+government & law (1064),green_%,9.25
+operations research & management science (763),green_%,11.01
+communication (371),green_%,8.17
+mechanics (2090),green_%,6.71
+international relations (306),green_%,9.46
+dermatology (746),green_%,5.19
+philosophy (296),green_%,8.89
+area studies (1005),green_%,7.11
+mineralogy (557),green_%,7.45
+robotics (232),green_%,6.92
+electrochemistry (995),green_%,5.9
+women's studies (216),green_%,9.95
+thermodynamics (1575),green_%,4.95
+art (75),green_%,5.29
+optics (1684),green_%,8.88
+ethnic studies (87),green_%,6.31
+history (272),green_%,4.89
+nuclear science & technology (759),green_%,4.16
+polymer science (1347),green_%,4.49
+classics (17),green_%,3.23
+dance (2),green_%,13.33
+music (50),green_%,3.58
+spectroscopy (366),green_%,3.23
+cultural studies (115),green_%,5.59
+microscopy (48),green_%,6.87
+asian studies (10),green_%,4.62
+theater (16),green_%,3.9
+"film, radio & television (20)",green_%,4.12
+astronomy & astrophysics (8085),hybrid_%,7.95
+health care sciences & services (8572),hybrid_%,5.91
+infectious diseases (25716),hybrid_%,5.51
+tropical medicine (12281),hybrid_%,2.92
+general & internal medicine (16122),hybrid_%,4.14
+microbiology (12492),hybrid_%,8.56
+"public, environmental & occupational health (28344)",hybrid_%,4.9
+science & technology - other topics (34712),hybrid_%,2.73
+parasitology (9643),hybrid_%,2.58
+medical ethics (453),hybrid_%,7.9
+religion (3518),hybrid_%,1.62
+life sciences & biomedicine - other topics (3834),hybrid_%,5.6
+research & experimental medicine (4887),hybrid_%,7.71
+immunology (12271),hybrid_%,9.49
+substance abuse (744),hybrid_%,5.47
+virology (4664),hybrid_%,4.07
+biodiversity & conservation (3376),hybrid_%,6.84
+emergency medicine (822),hybrid_%,1.43
+genetics & heredity (4474),hybrid_%,6.87
+medical informatics (663),hybrid_%,4.11
+evolutionary biology (2541),hybrid_%,5.86
+cardiovascular system & cardiology (4540),hybrid_%,4.23
+nutrition & dietetics (3901),hybrid_%,5.87
+crystallography (2987),hybrid_%,1.1
+social issues (579),hybrid_%,17.6
+anesthesiology (1268),hybrid_%,0.67
+rheumatology (1673),hybrid_%,1.82
+architecture (146),hybrid_%,2.49
+biomedical social sciences (2073),hybrid_%,12.55
+respiratory system (3400),hybrid_%,5.03
+mathematical & computational biology (1091),hybrid_%,7.95
+psychiatry (3264),hybrid_%,4.59
+oncology (4866),hybrid_%,5.48
+cell biology (2559),hybrid_%,4.94
+audiology & speech-language pathology (314),hybrid_%,2.58
+plant sciences (11131),hybrid_%,20.81
+mycology (862),hybrid_%,3.74
+"radiology, nuclear medicine & medical imaging (3159)",hybrid_%,6.97
+veterinary sciences (5382),hybrid_%,4.84
+mathematical methods in social sciences (198),hybrid_%,3.72
+mathematics (14338),hybrid_%,3.23
+obstetrics & gynecology (4280),hybrid_%,3.76
+meteorology & atmospheric sciences (2756),hybrid_%,6.48
+pediatrics (4777),hybrid_%,4.71
+education & educational research (4886),hybrid_%,3.62
+remote sensing (1552),hybrid_%,5.16
+oceanography (1123),hybrid_%,3.94
+integrative & complementary medicine (1726),hybrid_%,1.69
+geriatrics & gerontology (369),hybrid_%,7.54
+ophthalmology (1807),hybrid_%,3.15
+orthopedics (1276),hybrid_%,3.79
+social sciences - other topics (2979),hybrid_%,4.8
+urology & nephrology (2325),hybrid_%,1.43
+gastroenterology & hepatology (1554),hybrid_%,10.04
+biotechnology & applied microbiology (5137),hybrid_%,4.47
+mining & mineral processing (988),hybrid_%,3.12
+environmental sciences & ecology (22711),hybrid_%,4.77
+business & economics (8204),hybrid_%,4.39
+reproductive biology (1069),hybrid_%,2.3
+behavioral sciences (735),hybrid_%,6.41
+otorhinolaryngology (882),hybrid_%,1.74
+hematology (1560),hybrid_%,4.47
+neurosciences & neurology (4669),hybrid_%,4.39
+rehabilitation (722),hybrid_%,3.4
+biochemistry & molecular biology (9363),hybrid_%,4.72
+allergy (328),hybrid_%,7.42
+imaging science & photographic technology (1244),hybrid_%,3
+anatomy & morphology (537),hybrid_%,2.92
+agriculture (11909),hybrid_%,6.24
+telecommunications (3698),hybrid_%,1
+urban studies (599),hybrid_%,5.35
+nursing (807),hybrid_%,4.74
+psychology (3546),hybrid_%,5.57
+demography (357),hybrid_%,7.47
+pharmacology & pharmacy (10743),hybrid_%,3.13
+developmental biology (243),hybrid_%,3.29
+zoology (3605),hybrid_%,2.64
+physical geography (1058),hybrid_%,4.52
+sport sciences (951),hybrid_%,3.89
+arts & humanities - other topics (364),hybrid_%,1.81
+endocrinology & metabolism (2421),hybrid_%,4.5
+forestry (1265),hybrid_%,4.22
+physiology (999),hybrid_%,2.2
+geochemistry & geophysics (1610),hybrid_%,3.83
+water resources (5024),hybrid_%,3.51
+food science & technology (5446),hybrid_%,3.63
+"dentistry, oral surgery & medicine (1165)",hybrid_%,2.53
+family studies (453),hybrid_%,7.91
+history & philosophy of science (140),hybrid_%,7.04
+surgery (3714),hybrid_%,2.84
+entomology (2105),hybrid_%,4.43
+physics (17166),hybrid_%,3.37
+fisheries (954),hybrid_%,2.94
+pathology (978),hybrid_%,2.22
+metallurgy & metallurgical engineering (2166),hybrid_%,0.89
+computer science (9949),hybrid_%,2.57
+geography (795),hybrid_%,6.53
+transplantation (265),hybrid_%,5.78
+instruments & instrumentation (1431),hybrid_%,2.7
+transportation (423),hybrid_%,2
+marine & freshwater biology (2412),hybrid_%,2.62
+energy & fuels (5228),hybrid_%,1.48
+linguistics (957),hybrid_%,1.41
+literature (631),hybrid_%,0.91
+development studies (1284),hybrid_%,8.86
+criminology & penology (239),hybrid_%,3.44
+public administration (956),hybrid_%,5.52
+social work (346),hybrid_%,4.17
+paleontology (507),hybrid_%,2.78
+construction & building technology (1125),hybrid_%,1.05
+medical laboratory technology (527),hybrid_%,2.19
+chemistry (20112),hybrid_%,1.82
+acoustics (346),hybrid_%,5.5
+engineering (22341),hybrid_%,1.63
+anthropology (824),hybrid_%,5.08
+information science & library science (834),hybrid_%,3.65
+geology (5215),hybrid_%,2.71
+materials science (11788),hybrid_%,1.78
+toxicology (1781),hybrid_%,2.08
+biophysics (646),hybrid_%,4.33
+archaeology (434),hybrid_%,5.86
+legal medicine (207),hybrid_%,2.63
+sociology (482),hybrid_%,5.52
+automation & control systems (1369),hybrid_%,2.21
+government & law (1064),hybrid_%,3.01
+operations research & management science (763),hybrid_%,2.11
+communication (371),hybrid_%,2.94
+mechanics (2090),hybrid_%,1.21
+international relations (306),hybrid_%,3.89
+dermatology (746),hybrid_%,1.43
+philosophy (296),hybrid_%,2.53
+area studies (1005),hybrid_%,2.93
+mineralogy (557),hybrid_%,2.32
+robotics (232),hybrid_%,3.5
+electrochemistry (995),hybrid_%,1.49
+women's studies (216),hybrid_%,3.17
+thermodynamics (1575),hybrid_%,0.49
+art (75),hybrid_%,4.81
+optics (1684),hybrid_%,0.97
+ethnic studies (87),hybrid_%,4.64
+history (272),hybrid_%,3.22
+nuclear science & technology (759),hybrid_%,0.94
+polymer science (1347),hybrid_%,1.63
+classics (17),hybrid_%,0
+dance (2),hybrid_%,0
+music (50),hybrid_%,1.19
+spectroscopy (366),hybrid_%,0.73
+cultural studies (115),hybrid_%,1.4
+microscopy (48),hybrid_%,0.86
+asian studies (10),hybrid_%,0.77
+theater (16),hybrid_%,1.3
+"film, radio & television (20)",hybrid_%,0.34
+astronomy & astrophysics (8085),closed_%,18.95
+health care sciences & services (8572),closed_%,22.6
+infectious diseases (25716),closed_%,22.68
+tropical medicine (12281),closed_%,25.35
+general & internal medicine (16122),closed_%,25.62
+microbiology (12492),closed_%,27.32
+"public, environmental & occupational health (28344)",closed_%,28.56
+science & technology - other topics (34712),closed_%,28.95
+parasitology (9643),closed_%,29.62
+medical ethics (453),closed_%,34.91
+religion (3518),closed_%,35.3
+life sciences & biomedicine - other topics (3834),closed_%,36.53
+research & experimental medicine (4887),closed_%,37.53
+immunology (12271),closed_%,37.88
+substance abuse (744),closed_%,39.22
+virology (4664),closed_%,41.06
+biodiversity & conservation (3376),closed_%,43.39
+emergency medicine (822),closed_%,44.2
+genetics & heredity (4474),closed_%,44.32
+medical informatics (663),closed_%,44.43
+evolutionary biology (2541),closed_%,44.46
+cardiovascular system & cardiology (4540),closed_%,45.27
+nutrition & dietetics (3901),closed_%,45.49
+crystallography (2987),closed_%,46.12
+social issues (579),closed_%,46.93
+anesthesiology (1268),closed_%,46.97
+rheumatology (1673),closed_%,47.49
+architecture (146),closed_%,48.04
+biomedical social sciences (2073),closed_%,48.48
+respiratory system (3400),closed_%,48.81
+mathematical & computational biology (1091),closed_%,50.16
+psychiatry (3264),closed_%,50.71
+oncology (4866),closed_%,51.23
+cell biology (2559),closed_%,51.4
+audiology & speech-language pathology (314),closed_%,52.35
+plant sciences (11131),closed_%,52.51
+mycology (862),closed_%,53.33
+"radiology, nuclear medicine & medical imaging (3159)",closed_%,53.63
+veterinary sciences (5382),closed_%,53.68
+mathematical methods in social sciences (198),closed_%,53.95
+mathematics (14338),closed_%,54.2
+obstetrics & gynecology (4280),closed_%,54.97
+meteorology & atmospheric sciences (2756),closed_%,55.38
+pediatrics (4777),closed_%,55.6
+education & educational research (4886),closed_%,56.14
+remote sensing (1552),closed_%,56.22
+oceanography (1123),closed_%,57.04
+integrative & complementary medicine (1726),closed_%,57.05
+geriatrics & gerontology (369),closed_%,57.19
+ophthalmology (1807),closed_%,57.49
+orthopedics (1276),closed_%,57.59
+social sciences - other topics (2979),closed_%,57.98
+urology & nephrology (2325),closed_%,58.06
+gastroenterology & hepatology (1554),closed_%,58.06
+biotechnology & applied microbiology (5137),closed_%,58.81
+mining & mineral processing (988),closed_%,59.43
+environmental sciences & ecology (22711),closed_%,59.52
+business & economics (8204),closed_%,59.92
+reproductive biology (1069),closed_%,60.39
+behavioral sciences (735),closed_%,60.42
+otorhinolaryngology (882),closed_%,60.62
+hematology (1560),closed_%,60.63
+neurosciences & neurology (4669),closed_%,61.04
+rehabilitation (722),closed_%,61.08
+biochemistry & molecular biology (9363),closed_%,61.36
+allergy (328),closed_%,61.37
+imaging science & photographic technology (1244),closed_%,61.46
+anatomy & morphology (537),closed_%,61.7
+agriculture (11909),closed_%,61.84
+telecommunications (3698),closed_%,62.25
+urban studies (599),closed_%,62.3
+nursing (807),closed_%,62.86
+psychology (3546),closed_%,63.07
+demography (357),closed_%,63.46
+pharmacology & pharmacy (10743),closed_%,63.49
+developmental biology (243),closed_%,63.68
+zoology (3605),closed_%,64.21
+physical geography (1058),closed_%,64.84
+sport sciences (951),closed_%,65.06
+arts & humanities - other topics (364),closed_%,65.3
+endocrinology & metabolism (2421),closed_%,65.38
+forestry (1265),closed_%,66.02
+physiology (999),closed_%,66.16
+geochemistry & geophysics (1610),closed_%,66.27
+water resources (5024),closed_%,66.53
+food science & technology (5446),closed_%,66.57
+"dentistry, oral surgery & medicine (1165)",closed_%,66.87
+family studies (453),closed_%,67.13
+history & philosophy of science (140),closed_%,67.14
+surgery (3714),closed_%,67.25
+entomology (2105),closed_%,68.39
+physics (17166),closed_%,68.45
+fisheries (954),closed_%,68.49
+pathology (978),closed_%,68.6
+metallurgy & metallurgical engineering (2166),closed_%,69.39
+computer science (9949),closed_%,70.04
+geography (795),closed_%,70.17
+transplantation (265),closed_%,70.52
+instruments & instrumentation (1431),closed_%,70.53
+transportation (423),closed_%,70.85
+marine & freshwater biology (2412),closed_%,70.99
+energy & fuels (5228),closed_%,71
+linguistics (957),closed_%,71.26
+literature (631),closed_%,71.28
+development studies (1284),closed_%,71.35
+criminology & penology (239),closed_%,71.62
+public administration (956),closed_%,72.23
+social work (346),closed_%,72.23
+paleontology (507),closed_%,72.4
+construction & building technology (1125),closed_%,72.57
+medical laboratory technology (527),closed_%,72.58
+chemistry (20112),closed_%,72.75
+acoustics (346),closed_%,72.82
+engineering (22341),closed_%,73.13
+anthropology (824),closed_%,73.85
+information science & library science (834),closed_%,74.22
+geology (5215),closed_%,74.39
+materials science (11788),closed_%,74.46
+toxicology (1781),closed_%,74.59
+biophysics (646),closed_%,75.01
+archaeology (434),closed_%,75.07
+legal medicine (207),closed_%,75.3
+sociology (482),closed_%,75.61
+automation & control systems (1369),closed_%,75.65
+government & law (1064),closed_%,76.61
+operations research & management science (763),closed_%,77.05
+communication (371),closed_%,78.2
+mechanics (2090),closed_%,78.74
+international relations (306),closed_%,79.46
+dermatology (746),closed_%,79.53
+philosophy (296),closed_%,79.77
+area studies (1005),closed_%,80.1
+mineralogy (557),closed_%,80.14
+robotics (232),closed_%,80.19
+electrochemistry (995),closed_%,80.49
+women's studies (216),closed_%,80.99
+thermodynamics (1575),closed_%,81.12
+art (75),closed_%,81.97
+optics (1684),closed_%,82.57
+ethnic studies (87),closed_%,83.86
+history (272),closed_%,85.39
+nuclear science & technology (759),closed_%,85.46
+polymer science (1347),closed_%,85.84
+classics (17),closed_%,86.29
+dance (2),closed_%,86.67
+music (50),closed_%,88.07
+spectroscopy (366),closed_%,88.41
+cultural studies (115),closed_%,89.28
+microscopy (48),closed_%,89.7
+asian studies (10),closed_%,92.31
+theater (16),closed_%,93.07
+"film, radio & television (20)",closed_%,93.13
+astronomy & astrophysics (8085),all_OA_%,81.05
+health care sciences & services (8572),all_OA_%,77.41
+infectious diseases (25716),all_OA_%,77.32
+tropical medicine (12281),all_OA_%,74.66
+general & internal medicine (16122),all_OA_%,74.37
+microbiology (12492),all_OA_%,72.68
+"public, environmental & occupational health (28344)",all_OA_%,71.44
+science & technology - other topics (34712),all_OA_%,71.06
+parasitology (9643),all_OA_%,70.37
+medical ethics (453),all_OA_%,65.08
+religion (3518),all_OA_%,64.71
+life sciences & biomedicine - other topics (3834),all_OA_%,63.47
+research & experimental medicine (4887),all_OA_%,62.48
+immunology (12271),all_OA_%,62.12
+substance abuse (744),all_OA_%,60.78
+virology (4664),all_OA_%,58.94
+biodiversity & conservation (3376),all_OA_%,56.61
+emergency medicine (822),all_OA_%,55.81
+genetics & heredity (4474),all_OA_%,55.67
+medical informatics (663),all_OA_%,55.57
+evolutionary biology (2541),all_OA_%,55.54
+cardiovascular system & cardiology (4540),all_OA_%,54.73
+nutrition & dietetics (3901),all_OA_%,54.51
+crystallography (2987),all_OA_%,53.88
+social issues (579),all_OA_%,53.07
+anesthesiology (1268),all_OA_%,53.03
+rheumatology (1673),all_OA_%,52.52
+architecture (146),all_OA_%,51.95
+biomedical social sciences (2073),all_OA_%,51.52
+respiratory system (3400),all_OA_%,51.19
+mathematical & computational biology (1091),all_OA_%,49.85
+psychiatry (3264),all_OA_%,49.29
+oncology (4866),all_OA_%,48.77
+cell biology (2559),all_OA_%,48.6
+audiology & speech-language pathology (314),all_OA_%,47.65
+plant sciences (11131),all_OA_%,47.5
+mycology (862),all_OA_%,46.68
+"radiology, nuclear medicine & medical imaging (3159)",all_OA_%,46.37
+veterinary sciences (5382),all_OA_%,46.32
+mathematical methods in social sciences (198),all_OA_%,46.04
+mathematics (14338),all_OA_%,45.8
+obstetrics & gynecology (4280),all_OA_%,45.04
+meteorology & atmospheric sciences (2756),all_OA_%,44.62
+pediatrics (4777),all_OA_%,44.39
+education & educational research (4886),all_OA_%,43.85
+remote sensing (1552),all_OA_%,43.78
+oceanography (1123),all_OA_%,42.96
+integrative & complementary medicine (1726),all_OA_%,42.94
+geriatrics & gerontology (369),all_OA_%,42.81
+ophthalmology (1807),all_OA_%,42.5
+orthopedics (1276),all_OA_%,42.41
+social sciences - other topics (2979),all_OA_%,42.02
+urology & nephrology (2325),all_OA_%,41.94
+gastroenterology & hepatology (1554),all_OA_%,41.94
+biotechnology & applied microbiology (5137),all_OA_%,41.19
+mining & mineral processing (988),all_OA_%,40.58
+environmental sciences & ecology (22711),all_OA_%,40.48
+business & economics (8204),all_OA_%,40.08
+reproductive biology (1069),all_OA_%,39.61
+behavioral sciences (735),all_OA_%,39.58
+otorhinolaryngology (882),all_OA_%,39.37
+hematology (1560),all_OA_%,39.37
+neurosciences & neurology (4669),all_OA_%,38.97
+rehabilitation (722),all_OA_%,38.92
+biochemistry & molecular biology (9363),all_OA_%,38.63
+allergy (328),all_OA_%,38.63
+imaging science & photographic technology (1244),all_OA_%,38.54
+anatomy & morphology (537),all_OA_%,38.3
+agriculture (11909),all_OA_%,38.15
+telecommunications (3698),all_OA_%,37.76
+urban studies (599),all_OA_%,37.69
+nursing (807),all_OA_%,37.13
+psychology (3546),all_OA_%,36.93
+demography (357),all_OA_%,36.53
+pharmacology & pharmacy (10743),all_OA_%,36.51
+developmental biology (243),all_OA_%,36.32
+zoology (3605),all_OA_%,35.79
+physical geography (1058),all_OA_%,35.16
+sport sciences (951),all_OA_%,34.94
+arts & humanities - other topics (364),all_OA_%,34.7
+endocrinology & metabolism (2421),all_OA_%,34.61
+forestry (1265),all_OA_%,33.98
+physiology (999),all_OA_%,33.85
+geochemistry & geophysics (1610),all_OA_%,33.72
+water resources (5024),all_OA_%,33.48
+food science & technology (5446),all_OA_%,33.43
+"dentistry, oral surgery & medicine (1165)",all_OA_%,33.13
+family studies (453),all_OA_%,32.88
+history & philosophy of science (140),all_OA_%,32.85
+surgery (3714),all_OA_%,32.75
+entomology (2105),all_OA_%,31.62
+physics (17166),all_OA_%,31.55
+fisheries (954),all_OA_%,31.51
+pathology (978),all_OA_%,31.4
+metallurgy & metallurgical engineering (2166),all_OA_%,30.61
+computer science (9949),all_OA_%,29.97
+geography (795),all_OA_%,29.84
+transplantation (265),all_OA_%,29.47
+instruments & instrumentation (1431),all_OA_%,29.47
+transportation (423),all_OA_%,29.15
+marine & freshwater biology (2412),all_OA_%,29.02
+energy & fuels (5228),all_OA_%,29.01
+linguistics (957),all_OA_%,28.74
+literature (631),all_OA_%,28.72
+development studies (1284),all_OA_%,28.66
+criminology & penology (239),all_OA_%,28.38
+public administration (956),all_OA_%,27.78
+social work (346),all_OA_%,27.77
+paleontology (507),all_OA_%,27.61
+construction & building technology (1125),all_OA_%,27.43
+medical laboratory technology (527),all_OA_%,27.42
+chemistry (20112),all_OA_%,27.26
+acoustics (346),all_OA_%,27.18
+engineering (22341),all_OA_%,26.87
+anthropology (824),all_OA_%,26.15
+information science & library science (834),all_OA_%,25.78
+geology (5215),all_OA_%,25.61
+materials science (11788),all_OA_%,25.54
+toxicology (1781),all_OA_%,25.41
+biophysics (646),all_OA_%,24.98
+archaeology (434),all_OA_%,24.93
+legal medicine (207),all_OA_%,24.7
+sociology (482),all_OA_%,24.39
+automation & control systems (1369),all_OA_%,24.36
+government & law (1064),all_OA_%,23.39
+operations research & management science (763),all_OA_%,22.96
+communication (371),all_OA_%,21.81
+mechanics (2090),all_OA_%,21.26
+international relations (306),all_OA_%,20.53
+dermatology (746),all_OA_%,20.48
+philosophy (296),all_OA_%,20.24
+area studies (1005),all_OA_%,19.9
+mineralogy (557),all_OA_%,19.86
+robotics (232),all_OA_%,19.82
+electrochemistry (995),all_OA_%,19.51
+women's studies (216),all_OA_%,19.02
+thermodynamics (1575),all_OA_%,18.88
+art (75),all_OA_%,18.03
+optics (1684),all_OA_%,17.43
+ethnic studies (87),all_OA_%,16.15
+history (272),all_OA_%,14.61
+nuclear science & technology (759),all_OA_%,14.54
+polymer science (1347),all_OA_%,14.16
+classics (17),all_OA_%,13.72
+dance (2),all_OA_%,13.33
+music (50),all_OA_%,11.93
+spectroscopy (366),all_OA_%,11.59
+cultural studies (115),all_OA_%,10.72
+microscopy (48),all_OA_%,10.31
+asian studies (10),all_OA_%,7.7
+theater (16),all_OA_%,6.93
+"film, radio & television (20)",all_OA_%,6.86
