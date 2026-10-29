@@ -14,6 +14,20 @@ These notes record how the variables were built, as read from the notebooks. Cou
 
 Source: `notebooks/04_merge_and_variables/open_access_analyses_2.ipynb`.
 
+### Two versions of the yearly data
+
+All totals use the final sample of 854,785 articles (for example `results/tables/oa_general.xlsx`, sheets `is_oa_doc_types_year`, `oa_status_doc_types_year`, `countries`, `is_oa_region`; and `results/figure_data/figure_8_funding.csv`, `figure_9_times_cited.csv`).
+
+The year-by-year figure data (`figure_1.csv`, `figure_2b.csv`, `figure_3*.csv`, `figure_4b.csv`, `figure_6*.csv`, the yearly sheets of `oa_collaboration.xlsx`, and the region-by-year and country-by-year sheets) were produced from an earlier extract. It is identical to the final sample for 2002–2018 but lacks 16,084 articles from 2019–2021.
+
+| Year | Final sample: articles | Final sample: OA share | Earlier extract: articles | Earlier extract: OA share |
+| --- | --- | --- | --- | --- |
+| 2019 | 83,785 | 52.3% | 83,410 | 52.4% |
+| 2020 | 96,526 | 56.0% | 92,755 | 57.5% |
+| 2021 | 112,826 | 55.0% | 100,889 | 58.7% |
+
+OA type shares among OA articles in 2021 (final sample): Gold 67.6%, Green 13.3%, Hybrid 10.1%, Bronze 8.9%.
+
 ### DOI enrichment (not used)
 
 `notebooks/03_doi_enrichment_not_used` matched records without a DOI to Scopus, Lens and Crossref. This recovered 30,633 DOIs (290,988 records without DOI before, 260,355 after). The recovered DOIs were not sent to Unpaywall, so the enriched records have no OA status and are not part of the 854,785 articles. The step is kept here for transparency.

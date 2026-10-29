@@ -8,11 +8,14 @@ The study measures how much African research is openly available. It matches 854
 
 ## Main results
 
-- The share of articles available as OA rose from 16.7% (2002) to 58.7% (2021).
-- Gold OA made up 70.2% of OA articles in 2021.
+- 44.3% of all articles (378,955) were OA in August 2022.
+- The yearly OA share rose from 16.7% (2002) to 56.0% (2020) and 55.0% (2021).
+- Gold OA made up 67.6% of OA articles in 2021.
 - OA ranged from 61.5% in Eastern Africa to 33.9% in Northern Africa.
-- 63% of articles with a non-African co-author were OA in 2021, against 52.5% for single-country articles.
-- 56.9% of funded articles were OA, against 35.6% of unfunded ones.
+- 50.4% of articles with a non-African co-author were OA, against 36.5% of articles from a single African country (2002–2021).
+- 56.9% of funded articles were OA, against 35.5% of unfunded ones.
+
+Note: the year-by-year figure data in `results/figure_data/` (Figures 1, 2B, 3B–F, 4B, 6B–F, 8D–I) come from an earlier extract that lacks 16,084 articles from 2019–2021. See `docs/methods.md`.
 
 ## Pipeline
 
