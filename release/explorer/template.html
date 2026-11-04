@@ -1,0 +1,601 @@
+<!--STANDALONE--><title>Open Access in Africa Explorer</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Explore how open access to research grew in Africa, 2002-2021, by year, country, research area, collaboration and funding.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<!--/STANDALONE--><style>/* Layout: black hero band with the headline number, a sticky filter bar, then five linked views on paper in a 1120px wrapper. Tokens from the CognosX design system. */
+.cx-oa{
+  --paper:#ffffff; --soft:#f7f5f0; --black:#0a0a0a; --ink:#141414; --muted:#5c5c5c; --muted-on-black:#c9c9c9;
+  --line:#e6e3dd; --line-strong:#b9b9b9; --amber:#FEA500; --amber-ink:#9a5b00; --on-amber:#0a0a0a; --amber-tint:rgba(254,165,0,.08);
+  --c-gold:#C98000; --c-hybrid:#2F64B5; --c-bronze:#C24A2E; --c-green:#0E9A7E; --c-other:#9a9890;
+  --seq1:#fbe9c7; --seq2:#f6cf85; --seq3:#eeb043; --seq4:#d98e0b; --seq5:#b87500; --seq6:#8f5a00; --seq7:#5f3c00;
+  --nodata:#ecebe7; --sel:#141414;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --wrap:1120px; --r-base:10px; --r-card:14px; --r-pill:999px;
+}
+/*STANDALONE*/@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cx-oa{
+  --paper:#0a0a0a; --soft:#141414; --ink:#e9e9e9; --muted:#bdbdbd; --line:#2a2a2a; --line-strong:#4a4a4a;
+  --amber-ink:#FEA500; --amber-tint:rgba(254,165,0,.14);
+  --c-gold:#CC8200; --c-hybrid:#5A88D0; --c-bronze:#D9664C; --c-green:#1FAA8A; --c-other:#8a8a8a;
+  --nodata:#1f1f1f; --sel:#ffffff; color-scheme:dark}:root:not([data-theme="light"]) body{background:#0a0a0a}}
+:root[data-theme="dark"] .cx-oa{
+  --paper:#0a0a0a; --soft:#141414; --ink:#e9e9e9; --muted:#bdbdbd; --line:#2a2a2a; --line-strong:#4a4a4a;
+  --amber-ink:#FEA500; --amber-tint:rgba(254,165,0,.14);
+  --c-gold:#CC8200; --c-hybrid:#5A88D0; --c-bronze:#D9664C; --c-green:#1FAA8A; --c-other:#8a8a8a;
+  --nodata:#1f1f1f; --sel:#ffffff; color-scheme:dark}
+:root[data-theme="dark"] body{background:#0a0a0a}/*/STANDALONE*/
+.cx-oa *{box-sizing:border-box}
+.cx-oa{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;margin:0;-webkit-font-smoothing:antialiased}
+.cx-oa .wrap{max-width:var(--wrap);margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.cx-oa h1,.cx-oa h2,.cx-oa h3{letter-spacing:-.02em;line-height:1.15;text-wrap:balance;margin:0}
+.cx-oa h2{font-size:clamp(24px,3.2vw,32px);font-weight:700}
+.cx-oa h3{font-size:19.2px;font-weight:700}
+.cx-oa p{margin:0}
+.cx-oa .eyebrow,.cx-oa .tag,.cx-oa .credit,.cx-oa .label{font-family:var(--mono);text-transform:uppercase}
+.cx-oa .eyebrow{font-size:12px;letter-spacing:.2em;color:var(--amber-ink);font-weight:500}
+.cx-oa .label{font-size:11.5px;letter-spacing:.08em;color:var(--muted)}
+.cx-oa .muted{color:var(--muted)}
+.cx-oa .num{font-variant-numeric:tabular-nums}
+.cx-oa a{color:var(--amber-ink)}
+.cx-oa :focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+/*STANDALONE*/body{margin:0;background:#ffffff}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--black)}
+body .cx-oa .filters{position:sticky}/*/STANDALONE*/
+.cx-oa .hero{background:var(--black);color:#fff;position:relative;overflow:hidden}
+.cx-oa .hero .wrap{padding-block:clamp(40px,7vw,80px) clamp(32px,5vw,56px);position:relative;z-index:1}
+.cx-oa .hero .eyebrow{color:var(--amber)}
+.cx-oa .hero h1{font-size:clamp(34px,6vw,64px);font-weight:800;letter-spacing:-.035em;max-width:16ch;margin-top:14px}
+.cx-oa .hero h1 .dot{color:var(--amber)}
+.cx-oa .hero .lead{color:var(--muted-on-black);font-size:clamp(17px,2vw,20.8px);line-height:1.5;max-width:52ch;margin-top:18px}
+.cx-oa .halftone{position:absolute;right:-40px;top:0;bottom:0;width:min(46%,520px);opacity:.55;pointer-events:none}
+.cx-oa .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin-top:36px;border-top:1px solid #2a2a2a;padding-top:22px}
+.cx-oa .kpi .v{white-space:nowrap;font-size:clamp(22px,2.9vw,34px);font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.cx-oa .kpi .v.accent{color:var(--amber)}
+.cx-oa .kpi .d{color:var(--muted-on-black);font-size:14px;line-height:1.45;margin-top:4px}
+.cx-oa .status{text-decoration:none;display:inline-flex;gap:8px;align-items:center;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted-on-black);border:1px solid #3a3a3a;border-radius:var(--r-pill);padding:4px 12px;margin-top:22px}
+.cx-oa .status i{width:7px;height:7px;border-radius:50%;background:var(--amber);display:inline-block}
+.cx-oa .filters{position:static;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.cx-oa .filters .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;padding-block:12px}
+.cx-oa .fgroup{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.cx-oa .chips{display:flex;gap:6px;flex-wrap:wrap}
+.cx-oa .chip{font:500 14px/1 var(--sans);border:1px solid var(--line-strong);background:var(--paper);color:var(--ink);border-radius:var(--r-pill);padding:8px 13px;cursor:pointer;white-space:nowrap}
+.cx-oa .chip:hover{border-color:var(--ink)}
+.cx-oa .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.cx-oa .chip .sw{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:0}
+.cx-oa .reset{font:500 14px var(--sans);background:none;border:0;color:var(--amber-ink);cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:6px 2px}
+.cx-oa section.view{padding-block:clamp(44px,6vw,72px);border-bottom:1px solid var(--line)}
+.cx-oa section.view:nth-of-type(even){background:var(--soft)}
+.cx-oa .vhead{display:grid;gap:10px;max-width:68ch;margin-bottom:26px}
+.cx-oa .vhead p{color:var(--muted)}
+.cx-oa .grid2{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:28px;align-items:start}
+.cx-oa .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-card);padding:22px;min-width:0}
+.cx-oa section.view:nth-of-type(even) .card{background:var(--paper)}
+.cx-oa .chart-title{font-size:17px;font-weight:700;letter-spacing:-.01em;margin-bottom:4px}
+.cx-oa .caption{font-size:13.5px;color:var(--muted);margin-top:12px;line-height:1.5}
+.cx-oa .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13.5px;color:var(--muted);margin:8px 0 4px}
+.cx-oa .legend span{display:inline-flex;align-items:center;gap:6px}
+.cx-oa .legend i{width:11px;height:11px;border-radius:3px;display:inline-block}
+.cx-oa .chartbox{width:100%;overflow-x:auto}
+.cx-oa .chartbox svg{display:block;max-width:100%;height:auto;overflow:visible}
+.cx-oa #map svg path.country{stroke:var(--paper);stroke-width:.6;cursor:pointer;transition:opacity .15s}
+.cx-oa #map svg path.country.dim{opacity:.22}
+.cx-oa #map svg path.country.sel{stroke:var(--sel);stroke-width:2}
+.cx-oa #map svg path.country:focus-visible{outline:none;stroke:var(--amber);stroke-width:2.5}
+.cx-oa #map svg path.nodata{fill:var(--nodata);stroke:var(--paper);stroke-width:.6}
+.cx-oa #map svg circle.isle{stroke:var(--paper);stroke-width:1;cursor:pointer}
+.cx-oa #map svg circle.isle.dim{opacity:.22}
+.cx-oa #map svg circle.isle.sel{stroke:var(--sel);stroke-width:2}
+.cx-oa .ramp{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);margin-top:6px}
+.cx-oa .ramp .bar{display:flex;height:10px;border-radius:3px;overflow:hidden;flex:0 1 220px}
+.cx-oa .ramp .bar i{flex:1}
+.cx-oa .maptip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.4;padding:8px 10px;border-radius:8px;max-width:220px;opacity:0;transition:opacity .1s;z-index:3}
+.cx-oa .maptip b{display:block;font-weight:600}
+.cx-oa .detail h3{font-size:22px}
+.cx-oa .detail .big{font-size:44px;font-weight:700;letter-spacing:-.03em;line-height:1;margin:14px 0 4px;font-variant-numeric:tabular-nums}
+.cx-oa .detail dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:16px 0 0;font-size:14.5px}
+.cx-oa .detail dt{color:var(--muted)}
+.cx-oa .detail dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+.cx-oa .stack{display:flex;height:14px;border-radius:4px;overflow:hidden;background:var(--line);margin-top:16px}
+.cx-oa .stack i{display:block;height:100%}
+.cx-oa .flag{margin-top:14px;font-size:13.5px;background:var(--amber-tint);color:var(--ink);border-radius:var(--r-base);padding:10px 12px}
+.cx-oa .rank{display:grid;gap:2px;max-height:520px;overflow:auto;padding-right:4px}
+.cx-oa .rrow{display:grid;grid-template-columns:minmax(0,9.5em) minmax(0,1fr) 3.4em;align-items:center;gap:10px;font-size:14px;background:none;border:0;border-radius:6px;padding:4px 6px;color:var(--ink);text-align:left;cursor:pointer;font-family:var(--sans)}
+.cx-oa .rrow:hover{background:var(--soft)}
+.cx-oa .rrow[aria-pressed="true"]{background:var(--amber-tint);box-shadow:inset 0 0 0 1px var(--amber)}
+.cx-oa .rrow .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cx-oa .rrow .nm small{color:var(--muted);font-size:12px;margin-left:4px}
+.cx-oa .rrow .track{height:12px;background:var(--line);border-radius:3px;position:relative;overflow:hidden}
+.cx-oa .rrow .fill{position:absolute;inset:0 auto 0 0;border-radius:3px}
+.cx-oa .rrow .vv{text-align:right;font-variant-numeric:tabular-nums}
+.cx-oa .rrow.static{cursor:default}
+.cx-oa .rrow.static:hover{background:none}
+.cx-oa .meanline{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink);opacity:.55}
+.cx-oa .trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.cx-oa .trio .rrow{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"nm vv" "tr tr";gap:4px 10px;padding:6px 4px}
+.cx-oa .trio .rrow .nm{grid-area:nm;white-space:normal}
+.cx-oa .trio .rrow .vv{grid-area:vv}
+.cx-oa .trio .rrow .track{grid-area:tr}
+.cx-oa .note{font-size:13.5px;color:var(--muted);margin-top:10px}
+.cx-oa .fcontrols{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin-bottom:14px}
+.cx-oa .fcontrols input[type=search]{font:15px var(--sans);padding:9px 12px;border:1px solid var(--line-strong);border-radius:var(--r-base);background:var(--paper);color:var(--ink);min-width:0;width:min(280px,100%)}
+.cx-oa .fcontrols label{font-size:14px;color:var(--muted);display:flex;align-items:center;gap:8px}
+.cx-oa .fcontrols select{font:14px var(--sans);padding:7px 10px;border:1px solid var(--line-strong);border-radius:var(--r-base);background:var(--paper);color:var(--ink)}
+.cx-oa .dots{display:grid;gap:0}
+.cx-oa .drow{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) 3.4em;gap:12px;align-items:center;font-size:14px;padding:3px 0;border-bottom:1px dashed var(--line)}
+.cx-oa .drow .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cx-oa .drow .nm small{color:var(--muted);font-size:12px;margin-left:4px}
+.cx-oa .drow .axis{position:relative;height:16px}
+.cx-oa .drow .axis::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line)}
+.cx-oa .drow .pt{position:absolute;top:50%;width:11px;height:11px;border-radius:50%;transform:translate(-50%,-50%)}
+.cx-oa .drow .vv{text-align:right;font-variant-numeric:tabular-nums}
+.cx-oa .scale{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) 3.4em;gap:12px;font-size:12px;color:var(--muted)}
+.cx-oa .scale .ticks{position:relative;height:16px}
+.cx-oa .scale .ticks span{position:absolute;transform:translateX(-50%)}
+.cx-oa .howto{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.cx-oa .howto h3{font-size:16px;margin-bottom:6px}
+.cx-oa .howto p,.cx-oa .howto li{font-size:15px;color:var(--muted)}
+.cx-oa .howto ul{margin:0;padding-left:18px}
+.cx-oa .dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.cx-oa .dlrow{display:flex;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--line);border-radius:var(--r-base);padding:10px 12px;font-size:14px;background:var(--paper)}
+.cx-oa .btn{text-decoration:none;display:inline-block;font:600 14px var(--sans);border-radius:var(--r-pill);padding:7px 14px;cursor:pointer;border:1px solid var(--line-strong);background:var(--paper);color:var(--ink);white-space:nowrap}
+.cx-oa .btn:hover{border-color:var(--ink)}
+.cx-oa .btn.primary{background:var(--amber);color:var(--on-amber);border-color:var(--amber)}
+.cx-oa .cite{font-family:var(--mono);font-size:13px;line-height:1.6;background:var(--soft);border:1px solid var(--line);border-radius:var(--r-base);padding:14px 16px;white-space:pre-wrap;overflow-wrap:anywhere}
+.cx-oa .blank{background:var(--amber-tint);outline:1px dashed var(--amber-ink);padding:0 4px;border-radius:3px}
+.cx-oa footer{background:var(--black);color:var(--muted-on-black)}
+.cx-oa footer .wrap{padding-block:36px;display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;align-items:center}
+.cx-oa footer .credit{font-size:12px;letter-spacing:.22em;color:var(--amber)}
+.cx-oa footer .brand{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em}
+.cx-oa footer .brand b{color:var(--amber)}
+.cx-oa .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:var(--r-pill);font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20}
+.cx-oa .toast.on{opacity:1}
+@media (max-width:860px){.cx-oa .grid2,.cx-oa .trio,.cx-oa .howto{grid-template-columns:minmax(0,1fr)}.cx-oa .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.cx-oa .halftone{opacity:.25}}
+@media (max-width:520px){.cx-oa .drow,.cx-oa .scale{grid-template-columns:minmax(0,9em) minmax(0,1fr) 3em}.cx-oa .rrow{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 3em}}
+@media (prefers-reduced-motion:reduce){.cx-oa *{transition:none!important}}
+</style>
+
+<div class="cx-oa" id="cx-oa">
+<header class="hero" aria-labelledby="hero-title">
+  <svg class="halftone" viewBox="0 0 260 300" aria-hidden="true" id="halftone"></svg>
+  <div class="wrap">
+    <p class="eyebrow">Explorer · Open access in Africa · 2002–2021</p>
+    <h1 id="hero-title">Almost half of indexed African research is free to read<span class="dot">.</span></h1>
+    <p class="lead">We matched <span class="num" data-k="articles"></span> articles with an African author address (Web of Science, 2002–2021) to their open access status in Unpaywall, measured in August 2022. Use the filters to explore by year, country, research area, collaboration and funding.</p>
+    <div class="kpis" id="kpis"></div>
+    <a class="status" href="https://doi.org/10.20944/preprints202611.0240.v1" target="_blank" rel="noopener"><i></i>Preprint · posted 3 Nov 2026 · not peer reviewed</a>
+  </div>
+</header>
+
+<nav class="filters" aria-label="Filters">
+  <div class="wrap">
+    <div class="fgroup"><span class="label" id="lbl-measure">Measure</span><div class="chips" role="group" aria-labelledby="lbl-measure" id="f-measure"></div></div>
+    <div class="fgroup"><span class="label" id="lbl-region">Region</span><div class="chips" role="group" aria-labelledby="lbl-region" id="f-region"></div></div>
+    <button class="reset" id="f-reset" type="button">Reset</button>
+  </div>
+</nav>
+
+<main>
+  <section class="view" id="trend" aria-labelledby="t-trend">
+    <div class="wrap">
+      <div class="vhead">
+        <p class="eyebrow">01 · Over time</p>
+        <h2 id="t-trend">Open access more than tripled, from 16.7% in 2002 to 55.0% in 2021</h2>
+        <p>Share of all African-affiliated articles published each year that were free to read in August 2022, split by type of open access. Pick a measure above to bring one type forward.</p>
+      </div>
+      <div class="card">
+        <p class="chart-title" id="trend-title"></p>
+        <div class="legend" id="trend-legend"></div>
+        <div class="chartbox" id="trend-chart"></div>
+        <p class="caption">Source: Web of Science Core Collection and Unpaywall (August 2022); n = <span class="num" data-k="articles"></span> articles; table <code>oa_by_year</code>. All of Africa (no yearly data by region in this release). Older articles had more time to become open, which raises Green in early years.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="where" aria-labelledby="t-where">
+    <div class="wrap">
+      <div class="vhead">
+        <p class="eyebrow">02 · Countries and regions</p>
+        <h2 id="t-where">Open access ranges from 28.5% in Tunisia to 78.4% in Gambia</h2>
+        <p>Click a country on the map or in the list to see its numbers. Countries are counted in full: an article with authors in Kenya and Ghana counts once for each.</p>
+      </div>
+      <div class="grid2">
+        <div class="card" style="position:relative">
+          <p class="chart-title" id="map-title"></p>
+          <div id="map" class="chartbox" role="group" aria-label="Map of Africa"></div>
+          <div class="ramp" id="ramp"></div>
+          <div class="maptip" id="maptip" role="presentation"></div>
+          <p class="caption">Source: Web of Science and Unpaywall (August 2022); 54 countries; table <code>oa_by_country</code>. Western Sahara is shown without data. Small island states are marked with dots.</p>
+        </div>
+        <div class="card detail" id="detail" aria-live="polite"></div>
+      </div>
+      <div class="grid2" style="margin-top:28px">
+        <div class="card">
+          <p class="chart-title" id="rank-title"></p>
+          <p class="note" style="margin:0 0 10px">The dark line marks the mean of the 54 countries. Small grey numbers are articles.</p>
+          <div class="rank" id="rank" role="group" aria-label="Country ranking"></div>
+        </div>
+        <div class="card">
+          <p class="chart-title" id="reg-title"></p>
+          <div class="rank" id="regions" style="max-height:none"></div>
+          <p class="caption">Table <code>oa_by_region</code>. Full counting, so regions add up to more than the total.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="fields" aria-labelledby="t-fields">
+    <div class="wrap">
+      <div class="vhead">
+        <p class="eyebrow">03 · Research areas</p>
+        <h2 id="t-fields">Health research is the most open; engineering, chemistry and materials science the least</h2>
+        <p>Each dot is one Web of Science research area. An article in two areas counts in both. Areas with few articles move a lot, so the default hides those with fewer than 1,000.</p>
+      </div>
+      <div class="card">
+        <div class="fcontrols">
+          <input type="search" id="f-search" placeholder="Find a research area" aria-label="Find a research area">
+          <label for="f-min">Minimum articles
+            <select id="f-min"><option value="0">Any</option><option value="1000" selected>1,000</option><option value="5000">5,000</option><option value="20000">20,000</option></select>
+          </label>
+          <label for="f-show">Show
+            <select id="f-show"><option value="both" selected>Top and bottom 12</option><option value="all">All matching</option><option value="top">Top 15</option><option value="bottom">Bottom 15</option></select>
+          </label>
+        </div>
+        <p class="chart-title" id="fields-title"></p>
+        <div class="scale" id="fields-scale"></div>
+        <div class="dots" id="fields-list"></div>
+        <p class="caption">Source: Web of Science research areas; table <code>oa_by_research_area</code> (152 areas). All of Africa; the region filter does not apply here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="who" aria-labelledby="t-who">
+    <div class="wrap">
+      <div class="vhead">
+        <p class="eyebrow">04 · Collaboration and funding</p>
+        <h2 id="t-who">Articles with partners abroad, and funded articles, are more often open</h2>
+        <p>These are associations, not causes: funded and international articles also differ in field, journal and team size.</p>
+      </div>
+      <div class="trio">
+        <div class="card"><p class="chart-title" id="col-title"></p><div class="rank" id="collab" style="max-height:none"></div>
+          <p class="caption">International: at least one author outside Africa. National: all authors in one African country, including single authors. Table <code>oa_by_collaboration_type</code>.</p></div>
+        <div class="card"><p class="chart-title" id="fund-title"></p><div class="rank" id="funding" style="max-height:none"></div>
+          <p class="caption">Funded: the Web of Science record names a funder. Funding is under-recorded before 2008. Table <code>oa_by_funding</code>.</p></div>
+        <div class="card"><p class="chart-title">Open access share by partner region outside Africa</p><div class="rank" id="partners" style="max-height:none"></div>
+          <p class="caption">Articles with at least one co-author in the region (World Bank regions). Overall share only. Table <code>oa_by_partner_region</code>.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="cites" aria-labelledby="t-cites">
+    <div class="wrap">
+      <div class="vhead">
+        <p class="eyebrow">05 · Citations</p>
+        <h2 id="t-cites">Open articles have higher mean citations in every period</h2>
+        <p>Mean Web of Science citations at export (2022), not adjusted for field or journal. Open articles are more often funded, international and in health research, which can raise citations on their own.</p>
+      </div>
+      <div class="card">
+        <div class="legend"><span><i style="background:var(--c-gold)"></i>Open access</span><span><i style="background:var(--c-other)"></i>Closed</span></div>
+        <div class="chartbox" id="cite-chart"></div>
+        <p class="caption">Table <code>citations_by_period</code>. Recent articles have had little time to be cited.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="about" aria-labelledby="t-about">
+    <div class="wrap">
+      <div class="vhead"><p class="eyebrow">How to read and reuse</p><h2 id="t-about">What the data can and cannot say</h2></div>
+      <div class="howto">
+        <div><h3>What is counted</h3><p>Articles in the Web of Science Core Collection with at least one African institutional address, a DOI and a publication year 2002–2021. Open access status is one snapshot from Unpaywall, taken in August 2022.</p></div>
+        <div><h3>Types of open access</h3><ul><li><b>Gold</b>: in a fully open journal</li><li><b>Hybrid</b>: open, with a licence, in a subscription journal</li><li><b>Bronze</b>: free on the publisher's site, no licence</li><li><b>Green</b>: free only in a repository</li></ul></div>
+        <div><h3>Main limits</h3><p>Web of Science covers journals published in Africa poorly, so these numbers describe the internationally visible part of African research. All comparisons are descriptive. Unpaywall changed its method in May 2025, so a new query would give slightly different values.</p></div>
+      </div>
+
+      <div style="margin-top:36px">
+        <h3 style="margin-bottom:12px">Tables behind this page</h3>
+        <div class="dl" id="dl"></div>
+        <p class="note">Copy or download a table as CSV, or get all tables and the code on <a href="https://github.com/descartesmbogning/open-access-africa-2002-2021" target="_blank" rel="noopener">GitHub</a>. Data: CC BY 4.0. Code: MIT.</p>
+      </div>
+
+      <div style="margin-top:36px;display:grid;gap:10px">
+        <h3>How to cite</h3>
+        <div class="cite" id="cite">Mbogning Fonkou, M. D. (2026). The Open Access Landscape in Africa: A Two-Decade Analysis of Access, Collaboration and Funding, 2002–2021. Preprints 2026, 2026110240. https://doi.org/10.20944/preprints202611.0240.v1
+
+Data and code: https://github.com/descartesmbogning/open-access-africa-2002-2021</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" id="copy-cite" type="button">Copy citation</button><a class="btn" href="https://doi.org/10.20944/preprints202611.0240.v1" target="_blank" rel="noopener" style="text-decoration:none">Read the preprint</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="brand">Cognos<b>X.</b></span>
+    <span class="credit">Let science data speak</span>
+    <span style="font-size:14px">Source: CognosX analysis of Web of Science and Unpaywall data · cognosx.ca</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const GEO = /*__GEO__*/null;
+
+const TYPES = [
+  {k:"gold", label:"Gold", c:"--c-gold"},
+  {k:"hybrid", label:"Hybrid", c:"--c-hybrid"},
+  {k:"bronze", label:"Bronze", c:"--c-bronze"},
+  {k:"green", label:"Green", c:"--c-green"},
+];
+const MEASURES = [{k:"oa", label:"All open access"}, ...TYPES.map(t=>({k:t.k,label:t.label,c:t.c}))];
+const REGIONS = ["Northern Africa","Eastern Africa","Southern Africa","Western Africa","Central Africa"];
+const ISLES = new Set(["132","174","480","690","678"]);
+const state = {measure:"oa", region:"All", country:null};
+try{ const s=JSON.parse(localStorage.getItem("oa-africa-explorer")||"{}"); if(s.measure) state.measure=s.measure; if(s.region) state.region=s.region; }catch(e){}
+
+const ROOT = document.getElementById("cx-oa");
+const css = n => getComputedStyle(ROOT).getPropertyValue(n).trim();
+const fmt = d3.format(",");
+const pct = v => v==null||isNaN(v) ? "–" : (Math.round(v*10)/10).toFixed(1)+"%";
+const mLabel = () => MEASURES.find(m=>m.k===state.measure).label;
+const mCol = r => state.measure==="oa" ? r.oa_pct : r[state.measure+"_pct"];
+const mColor = () => state.measure==="oa" ? css("--amber-ink") : css(TYPES.find(t=>t.k===state.measure).c);
+const meanOf = (rows,f) => d3.mean(rows,f);
+const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cap = s => s.charAt(0).toUpperCase()+s.slice(1);
+
+function save(){ try{ localStorage.setItem("oa-africa-explorer", JSON.stringify({measure:state.measure, region:state.region})); }catch(e){} }
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(toast._t); toast._t=setTimeout(()=>t.classList.remove("on"),1800); }
+
+/* ---------- Hero ---------- */
+document.querySelectorAll('[data-k="articles"]').forEach(e=>e.textContent=fmt(DATA.meta.articles));
+(function kpis(){
+  const y=DATA.oa_by_year, y02=y.find(d=>d.year===2002), y21=y.find(d=>d.year===2021);
+  const reg=Object.fromEntries(DATA.oa_by_region.map(r=>[r.region,r]));
+  const k=[
+    {v:pct(DATA.meta.oa_pct), d:`of ${fmt(DATA.meta.articles)} articles were open (${fmt(DATA.meta.oa)})`, a:true},
+    {v:`${pct(y02.oa_pct)} → ${pct(y21.oa_pct)}`, d:"yearly open share, 2002 to 2021"},
+    {v:pct(y21.gold_pct_of_oa), d:"of open articles in 2021 were Gold"},
+    {v:`${pct(reg["Eastern Africa"].oa_pct)} / ${pct(reg["Northern Africa"].oa_pct)}`, d:"Eastern vs Northern Africa"},
+  ];
+  document.getElementById("kpis").innerHTML=k.map(x=>`<div class="kpi"><div class="v${x.a?" accent":""}">${x.v}</div><div class="d">${x.d}</div></div>`).join("");
+  // halftone dot field
+  const s=d3.select("#halftone"); const pts=[];
+  for(let i=0;i<13;i++) for(let j=0;j<15;j++){ const x=10+i*20, y=10+j*20, r=Math.max(0,(i/12)*7.5*(0.55+0.45*Math.sin(j/2.2+i/3))); if(r>.6) pts.push([x,y,r]); }
+  s.selectAll("circle").data(pts).join("circle").attr("cx",d=>d[0]).attr("cy",d=>d[1]).attr("r",d=>d[2]).attr("fill","#FEA500");
+})();
+
+/* ---------- Filters ---------- */
+function renderFilters(){
+  const fm=document.getElementById("f-measure");
+  fm.innerHTML=MEASURES.map(m=>`<button type="button" class="chip" data-m="${m.k}" aria-pressed="${state.measure===m.k}">${m.c?`<span class="sw" style="background:var(${m.c})"></span>`:""}${m.label}</button>`).join("");
+  fm.querySelectorAll("button").forEach(b=>b.onclick=()=>{state.measure=b.dataset.m; save(); renderAll();});
+  const fr=document.getElementById("f-region");
+  fr.innerHTML=["All",...REGIONS].map(r=>`<button type="button" class="chip" data-r="${r}" aria-pressed="${state.region===r}">${r==="All"?"All Africa":r.replace(" Africa","")}</button>`).join("");
+  fr.querySelectorAll("button").forEach(b=>b.onclick=()=>{state.region=b.dataset.r; if(state.country && state.region!=="All"){const c=DATA.oa_by_country.find(c=>c.country===state.country); if(c.region!==state.region) state.country=null;} save(); renderAll();});
+}
+document.getElementById("f-reset").onclick=()=>{state.measure="oa"; state.region="All"; state.country=null; save(); renderAll();};
+
+/* ---------- 01 Trend ---------- */
+function renderTrend(){
+  const box=document.getElementById("trend-chart"); box.innerHTML="";
+  const W=Math.max(320, box.clientWidth||900), H=Math.round(Math.min(380, Math.max(260, W*0.42)));
+  const m={t:12,r:64,b:30,l:40};
+  const yrs=DATA.oa_by_year;
+  const keys=TYPES.map(t=>t.k);
+  const stack=d3.stack().keys(keys).value((d,k)=>d[k+"_pct_of_articles"])(yrs);
+  const x=d3.scaleLinear().domain([2002,2021]).range([m.l,W-m.r]);
+  const y=d3.scaleLinear().domain([0,60]).range([H-m.b,m.t]);
+  const svg=d3.select(box).append("svg").attr("viewBox",`0 0 ${W} ${H}`).attr("width",W).attr("height",H)
+    .attr("role","img").attr("aria-label",`Stacked area chart of open access share by type, 2002 to 2021. Total rises from ${pct(yrs[0].oa_pct)} to ${pct(yrs[yrs.length-1].oa_pct)}.`);
+  svg.append("g").selectAll("line").data(y.ticks(6)).join("line").attr("x1",m.l).attr("x2",W-m.r).attr("y1",d=>y(d)).attr("y2",d=>y(d)).attr("stroke",css("--line"));
+  svg.append("g").selectAll("text").data(y.ticks(6)).join("text").attr("x",m.l-8).attr("y",d=>y(d)).attr("dy","0.32em").attr("text-anchor","end").attr("font-size",12).attr("fill",css("--muted")).text(d=>d+"%");
+  svg.append("g").selectAll("text").data(d3.range(2002,2022,W<560?4:2)).join("text").attr("x",d=>x(d)).attr("y",H-8).attr("text-anchor","middle").attr("font-size",12).attr("fill",css("--muted")).text(d=>d);
+  const area=d3.area().x(d=>x(d.data.year)).y0(d=>y(d[0])).y1(d=>y(d[1])).curve(d3.curveMonotoneX);
+  const focus=state.measure;
+  svg.append("g").selectAll("path").data(stack).join("path").attr("d",area)
+    .attr("fill",d=>css(TYPES.find(t=>t.k===d.key).c))
+    .attr("opacity",d=> focus==="oa"||focus===d.key ? 0.92 : 0.18);
+  // total line
+  const line=d3.line().x(d=>x(d.year)).y(d=>y(d.oa_pct)).curve(d3.curveMonotoneX);
+  svg.append("path").datum(yrs).attr("d",line).attr("fill","none").attr("stroke",css("--ink")).attr("stroke-width",2);
+  const last=yrs[yrs.length-1];
+  // direct labels at line ends
+  const lab=svg.append("g").attr("font-size",12.5);
+  lab.append("text").attr("x",x(2021)+6).attr("y",y(last.oa_pct)).attr("dy","0.32em").attr("fill",css("--ink")).attr("font-weight",600).text("All "+pct(last.oa_pct));
+  if(focus!=="oa"){
+    const s=stack.find(s=>s.key===focus), p=s[s.length-1];
+    lab.append("text").attr("x",x(2021)+6).attr("y",y((p[0]+p[1])/2)).attr("dy","0.32em").attr("fill",css(TYPES.find(t=>t.k===focus).c)).attr("font-weight",600).text(cap(focus)+" "+pct(last[focus+"_pct_of_articles"]));
+  }
+  // hover
+  const hov=svg.append("g").style("display","none");
+  hov.append("line").attr("y1",m.t).attr("y2",H-m.b).attr("stroke",css("--muted")).attr("stroke-dasharray","3 3");
+  const tip=hov.append("g"); const tb=tip.append("rect").attr("rx",6).attr("fill",css("--ink")); const tt=tip.append("text").attr("fill",css("--paper")).attr("font-size",12.5);
+  svg.append("rect").attr("x",m.l).attr("y",m.t).attr("width",W-m.l-m.r).attr("height",H-m.t-m.b).attr("fill","transparent")
+    .on("pointermove",ev=>{
+      const [px]=d3.pointer(ev); const yr=Math.round(x.invert(px)); const d=yrs.find(v=>v.year===yr); if(!d) return;
+      hov.style("display",null); hov.select("line").attr("x1",x(yr)).attr("x2",x(yr));
+      const lines=[`${yr} · ${fmt(d.articles)} articles`,`Open: ${pct(d.oa_pct)} (${fmt(d.oa)})`,...[...TYPES].reverse().map(t=>`${t.label}: ${pct(d[t.k+"_pct_of_articles"])}`)];
+      tt.selectAll("tspan").data(lines).join("tspan").attr("x",10).attr("dy",(d,i)=>i?17:16).attr("font-weight",(d,i)=>i<2?600:400).text(d=>d);
+      const bw=172, bh=lines.length*17+10; tb.attr("width",bw).attr("height",bh);
+      let tx=x(yr)+10; if(tx+bw>W-m.r+60) tx=x(yr)-bw-10; tip.attr("transform",`translate(${tx},${m.t})`);
+    })
+    .on("pointerleave",()=>hov.style("display","none"));
+  document.getElementById("trend-title").textContent = focus==="oa" ? "Share of articles that were open access, by type and year (%)" : `${mLabel()} open access as a share of all articles, by year (%)`;
+  document.getElementById("trend-legend").innerHTML=[...TYPES].reverse().map(t=>`<span style="opacity:${focus==="oa"||focus===t.k?1:.45}"><i style="background:var(${t.c})"></i>${t.label}</span>`).join("")+`<span><i style="background:var(--ink);height:2px;border-radius:0"></i>All open access</span>`;
+}
+
+/* ---------- 02 Map, ranking, detail ---------- */
+function bins(vals){
+  const ext=d3.extent(vals);
+  const lo=Math.floor(ext[0]/5)*5, hi=Math.ceil(ext[1]/5)*5;
+  return d3.scaleQuantize().domain([lo,hi]).range(["--seq1","--seq2","--seq3","--seq4","--seq5","--seq6","--seq7"].map(css));
+}
+function renderMap(){
+  const box=document.getElementById("map"); box.innerHTML="";
+  const W=Math.max(300, box.clientWidth||600), H=Math.round(W*0.93);
+  const byIso=new Map(DATA.oa_by_country.map(c=>[c.iso,c]));
+  const vals=DATA.oa_by_country.map(mCol);
+  const color=bins(vals);
+  const proj=d3.geoAzimuthalEqualArea().rotate([-18,-2]).fitExtent([[6,6],[W-6,H-6]],GEO);
+  const path=d3.geoPath(proj);
+  const svg=d3.select(box).append("svg").attr("viewBox",`0 0 ${W} ${H}`).attr("width",W).attr("height",H);
+  const tip=document.getElementById("maptip");
+  const showTip=(ev,c)=>{ const r=box.parentElement.getBoundingClientRect();
+    tip.innerHTML=`<b>${esc(c.country)}</b>${mLabel()}: ${pct(mCol(c))}<br>${fmt(c.articles)} articles`;
+    tip.style.left=Math.min(ev.clientX-r.left+12, r.width-230)+"px"; tip.style.top=(ev.clientY-r.top+12)+"px"; tip.style.opacity=1; };
+  const hideTip=()=>tip.style.opacity=0;
+  const feats=GEO.features;
+  svg.append("g").selectAll("path").data(feats.filter(f=>!byIso.has(f.id))).join("path").attr("class","nodata").attr("d",path);
+  const inReg=c=> state.region==="All" || c.region===state.region;
+  const g=svg.append("g");
+  g.selectAll("path").data(feats.filter(f=>byIso.has(f.id))).join("path")
+    .attr("class",f=>{const c=byIso.get(f.id); return "country"+(inReg(c)?"":" dim")+(state.country===c.country?" sel":"");})
+    .attr("d",path).attr("fill",f=>color(mCol(byIso.get(f.id))))
+    .attr("tabindex",f=>f.properties.name==="Somaliland"?null:0).attr("role","button")
+    .attr("aria-label",f=>{const c=byIso.get(f.id); return `${c.country}: ${pct(mCol(c))}`;})
+    .on("pointermove",(ev,f)=>showTip(ev,byIso.get(f.id))).on("pointerleave",hideTip)
+    .on("click",(ev,f)=>selectCountry(byIso.get(f.id).country))
+    .on("keydown",(ev,f)=>{ if(ev.key==="Enter"||ev.key===" "){ev.preventDefault(); selectCountry(byIso.get(f.id).country);} });
+  g.selectAll("path.sel").raise();
+  // island dots
+  const isles=feats.filter(f=>ISLES.has(f.id));
+  svg.append("g").selectAll("circle").data(isles).join("circle")
+    .attr("class",f=>{const c=byIso.get(f.id); return "isle"+(inReg(c)?"":" dim")+(state.country===c.country?" sel":"");})
+    .attr("cx",f=>path.centroid(f)[0]).attr("cy",f=>path.centroid(f)[1]).attr("r",Math.max(4,W/110))
+    .attr("fill",f=>color(mCol(byIso.get(f.id)))).attr("tabindex",0).attr("role","button")
+    .attr("aria-label",f=>{const c=byIso.get(f.id); return `${c.country}: ${pct(mCol(c))}`;})
+    .on("pointermove",(ev,f)=>showTip(ev,byIso.get(f.id))).on("pointerleave",hideTip)
+    .on("click",(ev,f)=>selectCountry(byIso.get(f.id).country))
+    .on("keydown",(ev,f)=>{ if(ev.key==="Enter"||ev.key===" "){ev.preventDefault(); selectCountry(byIso.get(f.id).country);} });
+  // legend ramp
+  const th=color.thresholds(), dom=color.domain();
+  document.getElementById("ramp").innerHTML=`<span>${dom[0]}%</span><span class="bar">${color.range().map(c=>`<i style="background:${c}"></i>`).join("")}</span><span>${dom[1]}%</span><span>· ${mLabel()}, share of articles</span>`;
+  document.getElementById("map-title").textContent=`${mLabel()}: share of each country's articles (%)`;
+}
+function selectCountry(name){ state.country = state.country===name ? null : name; renderMap(); renderRank(); renderDetail(); }
+
+function renderRank(){
+  const rows=DATA.oa_by_country.filter(c=>state.region==="All"||c.region===state.region).slice().sort((a,b)=>mCol(b)-mCol(a));
+  const all=DATA.oa_by_country, mean=meanOf(all,mCol), max=d3.max(all,mCol);
+  const col=mColor();
+  document.getElementById("rank-title").textContent=`${mLabel()} by country, ${state.region==="All"?"all 54 countries":state.region} (%)`;
+  const el=document.getElementById("rank");
+  el.innerHTML=rows.map(c=>`<button type="button" class="rrow" data-c="${esc(c.country)}" aria-pressed="${state.country===c.country}">
+    <span class="nm">${esc(c.country)}<small>${fmt(c.articles)}</small></span>
+    <span class="track"><span class="fill" style="width:${100*mCol(c)/max}%;background:${col}"></span><span class="meanline" style="left:${100*mean/max}%"></span></span>
+    <span class="vv">${pct(mCol(c))}</span></button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>selectCountry(b.dataset.c));
+  // regions
+  const R=DATA.oa_by_region, rmax=d3.max(R,mCol);
+  document.getElementById("reg-title").textContent=`${mLabel()} by region (%)`;
+  document.getElementById("regions").innerHTML=R.slice().sort((a,b)=>mCol(b)-mCol(a)).map(r=>`<div class="rrow static" style="opacity:${state.region==="All"||state.region===r.region?1:.4}">
+    <span class="nm">${r.region.replace(" Africa","")}<small>${fmt(r.articles)}</small></span>
+    <span class="track"><span class="fill" style="width:${100*mCol(r)/rmax}%;background:${col}"></span></span>
+    <span class="vv">${pct(mCol(r))}</span></div>`).join("");
+}
+
+function renderDetail(){
+  const el=document.getElementById("detail");
+  const all=DATA.oa_by_country, mean=meanOf(all,c=>c.oa_pct);
+  if(!state.country){
+    const R=state.region==="All" ? {region:"All of Africa", articles:DATA.meta.articles, oa:DATA.meta.oa, oa_pct:DATA.meta.oa_pct} : DATA.oa_by_region.find(r=>r.region===state.region);
+    const n=state.region==="All"?54:all.filter(c=>c.region===state.region).length;
+    el.innerHTML=`<p class="eyebrow">${state.region==="All"?"Overview":"Region"}</p><h3 style="margin-top:8px">${esc(R.region)}</h3>
+      <div class="big">${pct(R.oa_pct)}</div><p class="muted">of ${fmt(R.articles)} articles were open access${state.region==="All"?"":" (full counting)"}.</p>
+      <dl><dt>Countries</dt><dd>${n}</dd><dt>Mean of the 54 country shares</dt><dd>${pct(DATA.meta.country_mean)}</dd><dt>Standard deviation</dt><dd>${DATA.meta.country_sd}</dd><dt>Median</dt><dd>${pct(DATA.meta.country_median)}</dd></dl>
+      <p class="note" style="margin-top:18px">Select a country on the map or in the list for its own numbers.</p>`;
+    return;
+  }
+  const c=all.find(x=>x.country===state.country);
+  const closed=100-c.oa_pct;
+  el.innerHTML=`<p class="eyebrow">${esc(c.region)}</p><h3 style="margin-top:8px">${esc(c.country)}</h3>
+    <div class="big">${pct(c.oa_pct)}</div><p class="muted">of ${fmt(c.articles)} articles were open access (${fmt(c.oa)}).</p>
+    <div class="stack" aria-label="Breakdown by type">${TYPES.map(t=>`<i title="${t.label} ${pct(c[t.k+"_pct"])}" style="width:${c[t.k+"_pct"]}%;background:var(${t.c})"></i>`).join("")}<i title="Closed ${pct(closed)}" style="width:${closed}%;background:var(--line)"></i></div>
+    <dl>${TYPES.map(t=>`<dt><span style="display:inline-block;width:9px;height:9px;border-radius:2px;background:var(${t.c});margin-right:6px"></span>${t.label}</dt><dd>${pct(c[t.k+"_pct"])}</dd>`).join("")}
+    <dt>Closed</dt><dd>${pct(closed)}</dd>
+    <dt>Open share vs 54-country mean</dt><dd>${c.oa_pct-mean>=0?"+":""}${(c.oa_pct-mean).toFixed(1)} points</dd>
+    <dt>z-score (all open access)</dt><dd>${c.z>0?"+":""}${c.z.toFixed(2)}</dd></dl>
+    ${c.articles<1000?`<p class="flag">Fewer than 1,000 articles: this share can move a lot with a few papers.</p>`:""}
+    <p style="margin-top:16px"><button class="btn" type="button" id="clear-c">Clear selection</button></p>`;
+  document.getElementById("clear-c").onclick=()=>selectCountry(c.country);
+}
+
+/* ---------- 03 Research areas ---------- */
+function renderFields(){
+  const q=document.getElementById("f-search").value.trim().toLowerCase();
+  const min=+document.getElementById("f-min").value, show=document.getElementById("f-show").value;
+  let rows=DATA.oa_by_research_area.filter(r=>r.articles>=min && (!q || r.area.toLowerCase().includes(q)));
+  rows.sort((a,b)=>mCol(b)-mCol(a));
+  if(show==="top") rows=rows.slice(0,15); if(show==="bottom") rows=rows.slice(-15); if(show==="both" && rows.length>24) rows=[...rows.slice(0,12),{gap:true},...rows.slice(-12)];
+  const maxV = state.measure==="oa" ? 100 : Math.max(10, Math.ceil(d3.max(DATA.oa_by_research_area.filter(r=>r.articles>=1000),mCol)/10)*10);
+  const ticks=d3.range(0,maxV+1,maxV>50?20:10);
+  document.getElementById("fields-scale").innerHTML=`<span></span><span class="ticks">${ticks.map(t=>`<span style="left:${100*t/maxV}%">${t}%</span>`).join("")}</span><span></span>`;
+  const col=mColor();
+  const africa = state.measure==="oa" ? DATA.meta.oa_pct : null;
+  const nAreas=rows.filter(r=>!r.gap).length;
+  document.getElementById("fields-title").textContent=`${mLabel()}: share of articles in each research area (%) · ${nAreas} areas shown`;
+  document.getElementById("fields-list").innerHTML = rows.length ? rows.map(r=>r.gap?`<div class="drow" style="border:0"><span class="note" style="margin:6px 0">⋯ middle areas hidden; choose 'All matching' to see them</span></div>`:`<div class="drow">
+    <span class="nm" title="${esc(r.area)}">${esc(cap(r.area))}<small>${fmt(r.articles)}</small></span>
+    <span class="axis">${africa?`<span class="meanline" style="left:${africa}%;top:0;bottom:0" title="All Africa ${pct(africa)}"></span>`:""}<span class="pt" style="left:${Math.min(100,100*mCol(r)/maxV)}%;background:${col}"></span></span>
+    <span class="vv">${pct(mCol(r))}</span></div>`).join("") : `<p class="note">No research area matches. Try fewer letters or a lower minimum.</p>`;
+}
+["f-search","f-min","f-show"].forEach(id=>document.getElementById(id).addEventListener("input",renderFields));
+
+/* ---------- 04 Collaboration, funding, partners ---------- */
+function barList(el, rows, nameKey, val, col, maxOverride){
+  const max=maxOverride||d3.max(rows,val);
+  document.getElementById(el).innerHTML=rows.map(r=>`<div class="rrow static">
+    <span class="nm">${esc(r[nameKey])}<small>${fmt(r.articles)}</small></span>
+    <span class="track"><span class="fill" style="width:${100*val(r)/max}%;background:${col}"></span></span>
+    <span class="vv">${pct(val(r))}</span></div>`).join("");
+}
+function renderWho(){
+  const col=mColor();
+  document.getElementById("col-title").textContent=`${mLabel()} by collaboration type (%)`;
+  document.getElementById("fund-title").textContent=`${mLabel()}: funded vs not funded (%)`;
+  barList("collab", DATA.oa_by_collaboration_type, "type", mCol, col);
+  barList("funding", DATA.oa_by_funding, "funding", mCol, col);
+  barList("partners", DATA.oa_by_partner_region, "partner_region", r=>r.oa_pct, css("--amber-ink"), 100);
+}
+
+/* ---------- 05 Citations ---------- */
+function renderCites(){
+  const box=document.getElementById("cite-chart"); box.innerHTML="";
+  const W=Math.max(320, box.clientWidth||900), rowH=46, m={t:10,r:30,b:28,l:96}, H=m.t+m.b+rowH*4;
+  const periods=["2002-2006","2007-2011","2012-2016","2017-2021"];
+  const C=DATA.citations_by_period;
+  const x=d3.scaleLinear().domain([0,50]).range([m.l,W-m.r]);
+  const svg=d3.select(box).append("svg").attr("viewBox",`0 0 ${W} ${H}`).attr("width",W).attr("height",H).attr("role","img").attr("aria-label","Mean citations, open access versus closed, by publication period");
+  svg.append("g").selectAll("line").data(x.ticks(5)).join("line").attr("x1",d=>x(d)).attr("x2",d=>x(d)).attr("y1",m.t).attr("y2",H-m.b).attr("stroke",css("--line"));
+  svg.append("g").selectAll("text").data(x.ticks(5)).join("text").attr("x",d=>x(d)).attr("y",H-8).attr("text-anchor","middle").attr("font-size",12).attr("fill",css("--muted")).text(d=>d);
+  periods.forEach((p,i)=>{
+    const yy=m.t+rowH*i+rowH/2, o=C.find(c=>c.period===p&&c.status==="Open access"), c=C.find(c=>c.period===p&&c.status==="Closed");
+    const g=svg.append("g");
+    g.append("text").attr("x",m.l-14).attr("y",yy).attr("dy","0.32em").attr("text-anchor","end").attr("font-size",13.5).attr("fill",css("--ink")).text(p.replace("-","–"));
+    g.append("line").attr("x1",x(c.mean_citations)).attr("x2",x(o.mean_citations)).attr("y1",yy).attr("y2",yy).attr("stroke",css("--line-strong")).attr("stroke-width",3);
+    g.append("circle").attr("cx",x(c.mean_citations)).attr("cy",yy).attr("r",7).attr("fill",css("--c-other"));
+    g.append("circle").attr("cx",x(o.mean_citations)).attr("cy",yy).attr("r",7).attr("fill",css("--c-gold"));
+    g.append("text").attr("x",x(o.mean_citations)+12).attr("y",yy).attr("dy","0.32em").attr("font-size",12.5).attr("fill",css("--ink")).attr("font-weight",600).text(o.mean_citations);
+    g.append("text").attr("x",x(c.mean_citations)-12).attr("y",yy).attr("dy","0.32em").attr("text-anchor","end").attr("font-size",12.5).attr("fill",css("--muted")).text(c.mean_citations);
+  });
+}
+
+/* ---------- Downloads & citation ---------- */
+const TABLES=[["oa_by_year","Open access by year"],["oa_by_region","By region"],["oa_by_country","By country"],["oa_by_research_area","By research area"],["oa_by_collaboration_type","By collaboration type"],["oa_by_partner_region","By partner region"],["oa_by_funding","By funding"],["citations_by_period","Citations by period"]];
+function toCSV(rows){ const k=Object.keys(rows[0]); const q=v=>{v=v==null?"":String(v); return /[",\n]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v;}; return [k.join(","),...rows.map(r=>k.map(x=>q(r[x])).join(","))].join("\n"); }
+async function copyText(text, ok){ try{ await navigator.clipboard.writeText(text); toast(ok); }catch(e){ const ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy"); toast(ok);}catch(_){toast("Copy is blocked here. Get the tables on GitHub.");} ta.remove(); } }
+document.getElementById("dl").innerHTML=TABLES.map(([k,l])=>`<div class="dlrow"><span>${l}<br><small class="muted">${k}.csv · ${DATA[k].length} rows</small></span><span style="display:flex;gap:6px">${window.OA_FILES?`<a class="btn" href="${window.OA_FILES}${k}.csv" download>CSV</a>`:""}<button class="btn" type="button" data-t="${k}">Copy</button></span></div>`).join("");
+document.querySelectorAll("#dl button").forEach(b=>b.onclick=()=>copyText(toCSV(DATA[b.dataset.t]), `Copied ${b.dataset.t}.csv`));
+document.getElementById("copy-cite").onclick=()=>copyText(document.getElementById("cite").innerText, "Citation copied");
+
+/* ---------- Render ---------- */
+function renderAll(){ renderFilters(); renderTrend(); renderMap(); renderRank(); renderDetail(); renderFields(); renderWho(); renderCites(); }
+renderAll();
+let rt; window.addEventListener("resize",()=>{clearTimeout(rt); rt=setTimeout(()=>{renderTrend(); renderMap(); renderCites();},150);});
+const mq=window.matchMedia("(prefers-color-scheme: dark)"); mq.addEventListener?.("change",renderAll);
+new MutationObserver(renderAll).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+</script>

@@ -2,7 +2,9 @@
 
 Code, figure data and figures for the preprint:
 
-> Mbogning Fonkou, M. D. *The Open Access Landscape in Africa: A Two-Decade Data Driven Analysis of Access, Impact, and Collaboration.* AfricArXiv (2026). DOI: to be added.
+> Mbogning Fonkou, M. D. (2026). *The Open Access Landscape in Africa: A Two-Decade Analysis of Access, Collaboration and Funding, 2002–2021.* Preprints, 2026110240. https://doi.org/10.20944/preprints202611.0240.v1 (not peer reviewed)
+
+**Interactive explorer:** https://cognosx.ca/dashboards/oa-africa.html (source in `release/explorer/`).
 
 The study measures how much African research is openly available. It matches 854,785 articles with at least one African institutional address, indexed in the Web of Science Core Collection and published 2002–2021, to their open access (OA) status in Unpaywall (queried August 2022). It describes OA by year, OA type, country, region, discipline, collaboration type, funding and citations.
 
@@ -30,6 +32,8 @@ Note: the year-by-year figure data in `results/figure_data/` (Figures 1, 2B, 3B�
 `docs/methods.md` gives the record flow, the definitions and the country lists. `docs/notebook_index.md` lists every notebook with what it reads and writes.
 
 ## Results
+
+- `release/`: the findings sheet (`findings.csv`) and the interactive explorer, with the scripts that build them from the tables below.
 
 - `results/figures/`: the figures of the preprint (Figures 1 to 9).
 - `results/figure_data/`: the numbers behind each figure, one CSV per figure, plus the original workbook `figure_source_data.xlsx`.

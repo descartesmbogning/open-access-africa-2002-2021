@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
 title: "Open Access in Africa, 2002-2021: code, figure data and figures"
-version: 1.0.0
-date-released: 2026-10-29
+version: 1.1.0
+date-released: 2026-11-03
 license: MIT
 repository-code: "https://github.com/descartesmbogning/open-access-africa-2002-2021"
 authors:
@@ -16,3 +16,15 @@ keywords:
   - scientometrics
   - Unpaywall
   - Web of Science
+preferred-citation:
+  type: article
+  title: "The Open Access Landscape in Africa: A Two-Decade Analysis of Access, Collaboration and Funding, 2002-2021"
+  authors:
+    - family-names: "Mbogning Fonkou"
+      given-names: "Maxime Descartes"
+      orcid: "https://orcid.org/0000-0001-5581-3891"
+      affiliation: "CognosX"
+  journal: "Preprints"
+  year: 2026
+  doi: "10.20944/preprints202611.0240.v1"
+  url: "https://doi.org/10.20944/preprints202611.0240.v1"
